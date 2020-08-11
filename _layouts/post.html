@@ -1,0 +1,15 @@
+---
+layout: default
+comments: true
+---
+
+{% assign author = site.authors[page.author] %}
+<article class="post">
+  <h2>{{ page.title }}</h2>
+      <div class="entry">
+    {{ content }}
+  </div>
+<div class="date"><a href="{{ author.web }}">{{ author.display_name }}</a></div>
+  
+  {% include disqus.html %}
+</article>
