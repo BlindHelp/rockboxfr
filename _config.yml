@@ -28,7 +28,7 @@ footer-links:
 disqus: 
 google_analytics: 
 url: 
-baseurl: 'https://blindhelp.github.io/RockboxFR/'
+baseurl: 'https://blindhelp.github.io/RockboxFR'
 permalink: "/:title/"
 version: v1.2.0
 kramdown:
