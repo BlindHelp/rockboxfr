@@ -15,5 +15,6 @@ layout: page
   </label></p>
     <input type="hidden" name="_subject" value="New submission!" />
 	<input type="hidden" name="_next" value="{{ site.baseurl}}/sent" />
+	<input type="hidden" name="_language" value="fr" />
   <p><button type="submit">Envoyer</button></p>
 </form> 
