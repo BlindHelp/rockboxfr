@@ -41,7 +41,7 @@ function fetchComments() {
     .then(blob => blob.json())
     .then(initRenderComments)
     .catch(e => {
-      commentsWrapper.innerHTML = `<p>No ha sido posible obtener los comentarios de este post. Inténtalo más tarde.</p>`;
+      commentsWrapper.innerHTML = `<p>Il n'a pas été possible d'obtenir les commentaires de ce post. Réessayez plus tard.</p>`;
     });
 }
 
@@ -73,7 +73,7 @@ function allCommentScriptsLoaded() {
 */
 function initRenderComments(comments) {
   if (!comments.length) {
-    commentsWrapper.innerHTML = `<p>Aún no hay comentarios. 👀 ¡Publica tú el primero!</p>`;
+    commentsWrapper.innerHTML = `<p>Il n'y a pas encore des commentaires. Publier votre le premier!</p>`;
     return;
   }
 
@@ -108,7 +108,7 @@ function renderComments(comments) {
 
     const commentsList = document.createElement('ol');
     commentsList.className = 'comments-list';
-    commentsList.setAttribute('aria-label', 'Comentarios para este post');
+    / commentsList.setAttribute('aria-label', 'Comentaires');
 
     commentsList.innerHTML = comments
     .sort((comment1, comment2) => {
@@ -129,8 +129,8 @@ function renderComments(comments) {
                           class="meta username"
                           >${user.login}</a
                       >
-                      <div class="meta date-posted">Fecha de comentario: <time datetime="${comment.created_at}">${datePosted}</time></div>
-                      ${edited ? `<span class="meta comment-edited">Editado</span>` : ''}
+                      <div class="meta date-posted"><time datetime="${comment.created_at}">${datePosted}</time></div>
+                      ${edited ? `<span class="meta comment-edited">Édité</span>` : ''}
                   </div>
                   <div class="comment-body">${body}</div>
               </li>`;
