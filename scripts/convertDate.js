@@ -9,5 +9,5 @@ export default class ConvertDate {
 		this.year = this.originalDate.getFullYear();
 	}
 
-	getConvertedDate => [this.day, this.month, this.year].join("/")];
+	function getConvertedDate => [this.day, this.month, this.year].join("/")];
 }
