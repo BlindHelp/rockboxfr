@@ -117,7 +117,7 @@ function renderComments(comments) {
     })
     .map(comment => {
       const user = comment.user;
-      const datePosted = new ConvertDate(comment.created_at).convertedDate;
+      const datePosted = new ConvertDate(new Date(comment.created_at)).convertedDate;
       const body = DOMPurify.sanitize(marked(comment.body));
       const postedByAuthor = comment.author_association === 'OWNER';
       const edited = comment.created_at !== comment.updated_at;
@@ -144,12 +144,5 @@ function renderComments(comments) {
     commentsWrapper.appendChild(commentsList);
 }
 
-function convertDate(originalDate) {
-    let date = new Date(originalDate);
-	let day = date.getDate();
-	let month = date.getMonth() + 1;
-	let year = date.getFullYear();
-	return day + "/" + month + "/" + year;
-}
 
 </script>
