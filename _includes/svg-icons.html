@@ -15,20 +15,3 @@
 <a href="https://github.com/BlindHelp/rockboxfr" hreflang="en">Code source sur GitHub</a>
 
 <a href="{{ site.baseurl }}/contact">Formulaire de contact</a>
-<script>
-var footer = document.getElementById("footer");
-var div = document.createElement("DIV");
-var update = new Date(document.lastModified);
-
-function convertDate(originalDate) => {
-	let day = update.getDate();
-	if (day < 10) { day = "0" + day };
-	let month = update.getMonth() + 1;
-	if ( month < 10) { month = "0" + month };
-	let year = update.getFullYear();
-	return day + "/" + month + "/" + year;
-}
-
-div.innerHTML = "<p>Dernière mise à jour: <time>" + convertDate(update) + "</time></p>";
-footer.appendChild(div);
-</script>
