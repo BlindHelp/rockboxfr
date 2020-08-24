@@ -16,7 +16,8 @@
 </section>
 
 <!-- Comments script -->
-<script>
+<script type="module">
+import ConvertDate from '../scripts/convertDate.js';
   const commentsSection = document.getElementById('comments');
   const commentsWrapper = commentsSection.querySelector('#comments-wrapper');
   const commentsCount = commentsSection.querySelector('#comments-count');
@@ -58,11 +59,6 @@ const commentScripts = {
     src: '../scripts/purify.min.js',
     loaded: false,
   },
-  convertDate: {
-    src: '../scripts/convertDate.js',
-    loaded: false,
-    type: "module",
-  },
 };
 
 /**
@@ -95,7 +91,6 @@ function initRenderComments(comments) {
 function loadCommentScript(script, callback) {
   const scriptElement = document.createElement('script');
   scriptElement.src = script.src;
-  if (script.type !== undefined) { scriptElement.type = script.type };
   document.body.appendChild(scriptElement);
 
   scriptElement.onload = () => {
@@ -122,7 +117,7 @@ function renderComments(comments) {
     })
     .map(comment => {
       const user = comment.user;
-      const datePosted = new convertDate.ConvertDate(comment.created_at).convertedDate;
+      const datePosted = new ConvertDate(comment.created_at).convertedDate;
       const body = DOMPurify.sanitize(marked(comment.body));
       const postedByAuthor = comment.author_association === 'OWNER';
       const edited = comment.created_at !== comment.updated_at;
