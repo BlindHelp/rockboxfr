@@ -1,4 +1,4 @@
-import ConvertDate from './convertDate';
+import ConvertDate from './convertDate.js';
 
 var footer = document.getElementById("footer");
 var div = document.createElement("DIV");
