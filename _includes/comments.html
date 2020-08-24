@@ -61,8 +61,7 @@ const commentScripts = {
   convertDate: {
     src: '../scripts/convertDate.js',
     loaded: false,
-    type: "module",
-  }
+  },
 };
 
 /**
@@ -95,7 +94,6 @@ function initRenderComments(comments) {
 function loadCommentScript(script, callback) {
   const scriptElement = document.createElement('script');
   scriptElement.src = script.src;
-  if (script.type !== undefined) { scriptElement.type = script.type};
   document.body.appendChild(scriptElement);
 
   scriptElement.onload = () => {
