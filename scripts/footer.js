@@ -1,10 +1,8 @@
+import ConvertDate from './convertDate';
+
 var footer = document.getElementById("footer");
 var div = document.createElement("DIV");
 var update = new Date(document.lastModified);
-var day = update.getDate();
-if (day < 10) { day = "0" + day };
-var month = update.getMonth() + 1;
-if ( month < 10) { month = "0" + month };
-var year = update.getFullYear();
-div.innerHTML = "<p>Dernière mise à jour: <time>" + day + "/" + month + "/" + year + "</time></p>";
+
+div.innerHTML = "<p>Dernière mise à jour: <time>" + ConvertDate.getConvertedDate() + "</time></p>";
 footer.appendChild(div);
