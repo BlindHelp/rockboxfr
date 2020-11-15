@@ -2,7 +2,7 @@
 title: Tuto pour l'installation de rockbox et utilisation du Sandisk Sansa Clip Plus
 layout: post
 author: RockboxFR
-commentsId: 1
+commentsId: 2
 ---
 
 <footer>Mardi 15 Septembre 2020</footer>
@@ -221,14 +221,13 @@ Pour le mettre en mode msc donc : aller dans réglage puis paramètre système e
 
 Note :    
 
-Eng :    
+<span lang="en">Eng :</span>    
 
-
- <span lang="en"> > MSC mode instructions:</span>        
- <span lang="en"> > * Turn on the Clip+ </span>      
-<span lang="en">  > * Navigate to "Settings" on the menu of the device itself </span>       
-<span lang="en">  > * Next select "System Settings" </span>       
-<span lang="en">  > * Next, navigate to "USB Mode" and select "MSC"</span>       
+> <span lang="en">MSC mode instructions:</span>        
+> * <span lang="en">Turn on the Clip+ </span>      
+> * <span lang="en">Navigate to "Settings" on the menu of the device itself </span>       
+> * <span lang="en">Next select "System Settings" </span>       
+> * <span lang="en">Next, navigate to "USB Mode" and select "MSC"</span>       
 
 
 FR :    
@@ -284,7 +283,7 @@ Maintenant que nous avons ces fichiers  dans notre dossier afin de configurer no
 
 [Retour au sommaire](#Sommaire)
 
-# 6.- branchement de notre lecteur Sansa Clip Plus au PC.<a id="mark6"></a>
+# 6.- Branchement de notre lecteur Sansa Clip Plus au PC.<a id="mark6"></a>
 
 Si une personne nous à mit l'appareil Sansa Clip Plus déjà en mode USB, sans l'avoir branchez au PC...    
 
@@ -571,7 +570,7 @@ Ce fichier `config.cfg` est disponible en téléchargement à partir du lien ci-
 
 # Si je reprends les lignes données par Sof avec mon changement afin d'avoir la radio  de ma région le contenu du fichier config.cfg au premier lancement de Rockbox  une fois que vous avez mis le fichier english.voice est le suivant:
 <br>
-`# .cfg file created by rockbox 3.15 - http://www.rockbox.org
+`# .cfg file created by rockbox 3.15 - http://www.rockbox.org`    
 <br>
 `volume: -10`    
 `talk dir: spell`    
@@ -599,11 +598,11 @@ N'oubliez pas au préalable de consulter la section pour [l'Installation de la v
 
 # Téléchargement et mise en route du fichier de configuration en français:
 
-1.- Pour obtenir le fichier de configuration en français, vous devez télécharger le fichier nommé :    
+1.- Pour obtenir le fichier de configuration en français, vous devez télécharger le fichier nommé:    
 [FichierConfigRockboxFRClipPlus.zip](https://blindhelp.github.io/rockboxfr/FichierConfigRockboxFRClipPlus.zip)    
-2.- Une fois ddécompresser vous devez trouver le fichier nommé :    
+2.- Une fois ddécompresser vous devez trouver le fichier nommé:    
 `config.cfg`    
-3.- Maintenant il nous Reste Copier le fichier nommé :    
+3.- Maintenant il nous Reste Copier le fichier nommé:    
 `config.cfg`    
 4.- Maintenant ce fichier vous le collez à la racine du .rockbox, est vous fermer l'explorateur de fichiers  par Alt+F4.    
 
@@ -975,7 +974,7 @@ Changer à la fin de la ligne le nom de la région:
 par:    
 `Paris.fmr`    
 Si vous vivez à Paris par exemple.    
-ou rechercher votre propre région qui se trouve dans le dossier nommé:
+ou rechercher votre propre région qui se trouve dans le dossier nommé:    
 `fmr-france_060508`    
 le quelle inclus  60 fichiers sous forme .fmr    
 Une fois désiper le fichier nommé:
@@ -1057,8 +1056,8 @@ Un long appui sur la touche de Sélection on va sortire  du clavier virtuel et e
 
 # 20.- Mettre de la musique sur votre lecteur Sansa Clip Plus<a id="mark20"></a>
 
-avec le lecteur Sansa Clip Plus connecté à l'ordinateur comme un Disque amovible MSC/UMS (comme un lecteur USB), les fichiers  de musique peuvent être mis sur le lecteur par l'intermédiaire de toute méthode de transfert de fichier standard que vous  utiliseriez pour copier des fichiers entre lecteurs (p. ex. Drag-and-Drop). Les fichiers peuvent être placées partout où vous  le souhaitez sur le lecteur, mais il est fortement suggéré de ne pas les placer dans le dossier /.rockbox.    
- par défaut La structure des répertoires par certaines parties de Rockbox (balise manquant de secours dans certains WPS)  qui  est supposée utiliser le répertoire parent d'une chanson comme le nom de l'Album et le répertoire parent de ce dossier au nom  de l'artiste. WPS (While Playing Screen) peut afficher les informations de manière incorrecte si vos fichiers ne sont pas correctement étiquetés et que vous avez votre musique organisé de manière différente de celle assumée par eux lorsqe ils tente de deviner les noms de l'artiste et l'Album de votre arborescence de fichiers.    
+Avec le lecteur Sansa Clip Plus connecté à l'ordinateur comme un Disque amovible MSC/UMS (comme un lecteur USB), les fichiers  de musique peuvent être mis sur le lecteur par l'intermédiaire de toute méthode de transfert de fichier standard que vous  utiliseriez pour copier des fichiers entre lecteurs (p. ex. Drag-and-Drop). Les fichiers peuvent être placées partout où vous  le souhaitez sur le lecteur, mais il est fortement suggéré de ne pas les placer dans le dossier /.rockbox.    
+ Par défaut La structure des répertoires par certaines parties de Rockbox (balise manquant de secours dans certains WPS)  qui  est supposée utiliser le répertoire parent d'une chanson comme le nom de l'Album et le répertoire parent de ce dossier au nom  de l'artiste. WPS (While Playing Screen) peut afficher les informations de manière incorrecte si vos fichiers ne sont pas correctement étiquetés et que vous avez votre musique organisé de manière différente de celle assumée par eux lorsqe ils tente de deviner les noms de l'artiste et l'Album de votre arborescence de fichiers.    
 
 [Retour au sommaire](#Sommaire)
 
@@ -1135,11 +1134,11 @@ N'oubliez pas de fermez l'éditeur de texte et enregistrez le fichier m3u avant 
 2.- Pour jouer votre playlist celui-ci doit être placer dans le dossier PLAYLIST de votre lecteur Sansa Clip Plus.    
 3.- Ouvrez l'élément nommé Catalogue de la liste de lecture en anglais (Playlists) qui se trouve sur votre lecteur Sansa Clip Plus a l'aide de la touche Select.    
 4.- Avec les flêche haut ou bas sélectionnez le nom de votre Playlist  avec l'extention .m3u, puis appuyer sur la touche Select.    
-5. Attendez qu'elle  soit charger.    
-6. , Appuyer sur la première piste avec la touche Select.    
-7. La piste joue.    
-8. si vous voulez changer de piste, appuyer sur la flèche du bas, pour afficher les pistes, puis monter ou décendre avec les flèches du haut ou bas, puis appuyer sur la touche Select pour écoutez la piste souhaitez.    
-9. Pour quitter la lecture de votre playlist appuyer deux fois rapidement sur le bouton Power (Marche/Arrêt).    
+5.- Attendez qu'elle  soit charger.    
+6.- Appuyer sur la première piste avec la touche Select.    
+7.- La piste joue.    
+8.- Si vous voulez changer de piste, appuyer sur la flèche du bas, pour afficher les pistes, puis monter ou décendre avec les flèches du haut ou bas, puis appuyer sur la touche Select pour écoutez la piste souhaitez.    
+9.- Pour quitter la lecture de votre playlist appuyer deux fois rapidement sur le bouton Power (Marche/Arrêt).    
 
 [Retour au sommaire](#Sommaire)
 
@@ -1243,7 +1242,7 @@ N'oubliez pas que pour créer les voix, il faut avoir installer des voix sapi5 s
 
 Ce document en anglais via Rockbox.org couvre les différentes capacités annoncés ci-dessus   pour l'option Interface vocal, vous pouvez le consulter en cliquant sur le lien ci-dessous:    
 [VoiceHowto](https://www.rockbox.org/wiki/VoiceHowto)    
-Une fois ouverte la page voir la section"Voiced names for directories and files" laquelle  je trouve qu'elle est pertinente et je pense que cela peut vous aider   pour une meilleure configuration  de l'Interface vocal.    
+Une fois ouverte la page voir la section "Voiced names for directories and files" laquelle  je trouve qu'elle est pertinente et je pense que cela peut vous aider   pour une meilleure configuration phonétique des noms des répertoires et fichiers dans l'option Interface vocal.    
 
 [Retour au sommaire](#Sommaire)
 
