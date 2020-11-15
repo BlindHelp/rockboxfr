@@ -81,7 +81,7 @@ Sommaire <a id="Sommaire"></a>
 
 ---
 
-#1.- Description du produit.<a id="mark1"></a>
+# 1.- Description du produit.<a id="mark1"></a>
 
 Voici la description du produit  Sandisk \- Sansa Clip Plus - Lecteur MP3 - Radio FM - 8 Go - Noir    
 
@@ -91,60 +91,59 @@ Parfois, une image vaut 1000 mots! :)
 ![sansa clip plus rockbox](https://blindhelp.github.io/rockboxfr/sansa_clip_plus_rockbox.jpg "Sansa Clip Plus Rockbox")
 
 
-> # Détails techniques
+# Détails techniques
 
 > * Super compact et super léger, le lecteur MP3 Radio FM Sansa Clip+ de la firme Sandisk fait le plein de musique à moindre frais! Son de qualité et écran lumineux sont au menu du Sansa Clip+ pour profiter de vos fichiers audio dans les meilleures conditions.    
 > * Son interface vous permet de naviguer simplement dans sa mémoire de 8 Go à la recherche de vos morceaux préférés par titre, album ou artiste.    
 > * Le lecteur Sansa Clip+ stocke ainsi jusqu'à 2000 fichiers MP3 et 4000 fichiers WMA, étant par ailleurs compatible avec les formats secure WMA, Audible, Ogg Vorbis et FLAC.    
 > * Il lit également les audiobooks et les podcasts.    
 
-> # Caractéristiques détaillées
+# Caractéristiques détaillées
 
-> ## Capacité de stockage disponible
+## Capacité de stockage disponible
 
 > * 8 Go    
 
-> ## Type de cartes supportées
+## Type de cartes supportées
 
 > * microSD, microSDHC    
 
-> ## Technologie de l'écran
+## Technologie de l'écran
 
 > * OLED    
 
-> ## Résolution écran / Couleurs
+## Résolution écran / Couleurs
 
 > * NC pixels / Monochrome    
 
-> ## Taille de l'écran (diagonale)
+## Taille de l'écran (diagonale)
 
 > * 2,54 cm    
 
-> ## ENTRÉES & SORTIES
+## ENTRÉES & SORTIES
 
 > * Interface PC: USB 2.0    
-
 > * Casque connection: 3,5 mm    
 
-> ## ALIMENTATION
+## ALIMENTATION
 
 > * Type d'alimentation: Lithium Ion    
 
-> ## DIMENSIONS
+## DIMENSIONS
 
 > * Largeur: 3,47 cm    
 > * Hauteur: 1,53 cm    
 > * Epaisseur: 5,5 cm    
 > * Poids: 24 g    
 
-> ## Garantie du fabricant
+## Garantie du fabricant
 
 > * Détails des services et de la maintenance: Garantie Fabricant: 1 an    
 
 
   [Retour au sommaire](#Sommaire)
   
-#2.- Découverte du Sansa Clip Plus et premier pas.<a id="mark2"></a>
+# 2.- Découverte du Sansa Clip Plus et premier pas.<a id="mark2"></a>
 
 Une fois fait le déballage du lecteur Sansa Clip Plus qui vient dans une boîte digne d'un coffre-fort de la CIA, pour reprendre les termes de mon ami Sof,  nous avons le lecteur en soi, le cable USB2.0, les écouteurs et un Guide de mise en route rapide (Quick Start Guide) Version papier.    
 
@@ -197,7 +196,7 @@ Ceci est à titre d'information!
 
 [Retour au sommaire](#Sommaire)
 
-#3.- Préréglages de notre lecteur Sansa Clip Plus avant l'installation du firmware Rockbox.<a id="mark3"></a>
+# 3.- Préréglages de notre lecteur Sansa Clip Plus avant l'installation du firmware Rockbox.<a id="mark3"></a>
 
   Voici les premier Réglages préalable de l'appareil Sansa Clip Plus à l'aide d'une personne voyante!    
   
@@ -246,7 +245,7 @@ Au passage, dans les réglages, vous pouvez également modifier la "Configuratio
 
 [Retour au sommaire](#Sommaire)
 
-#4.- Téléchargement des fichiers avant l'installation du firmware Rockbox sur un Sansa Clip Plus.<a id="mark4"></a>
+# 4.- Téléchargement des fichiers avant l'installation du firmware Rockbox sur un Sansa Clip Plus.<a id="mark4"></a>
 
 Il faut téléchargez les fichiers suivants pour notre lecteur Sansa Clip Plus pour qui soi compatible avec le firmware Rockbox (fichiers uniquement pour le Sansa Clip Plus!)    
 
@@ -269,7 +268,7 @@ Une fois ddécompresser vous devez trouver le fichier nommé :
 
 [Retour au sommaire](#Sommaire)
 
-#5.- Préparation avant l'installation du firmware Rockbox [astuce].<a id="mark5"></a>
+# 5.- Préparation avant l'installation du firmware Rockbox [astuce].<a id="mark5"></a>
 
 Je pense que c'est plus sûre de créer au préalable un dossier nommé :    
 `RockboxInstall`    
@@ -285,7 +284,7 @@ Maintenant que nous avons ces fichiers  dans notre dossier afin de configurer no
 
 [Retour au sommaire](#Sommaire)
 
-#6.- branchement de notre lecteur Sansa Clip Plus au PC.<a id="mark6"></a>
+# 6.- branchement de notre lecteur Sansa Clip Plus au PC.<a id="mark6"></a>
 
 Si une personne nous à mit l'appareil Sansa Clip Plus déjà en mode USB, sans l'avoir branchez au PC...    
 
@@ -348,7 +347,7 @@ et collez le à la racine du lecteur. Déconnectez le lecteur et patientez : la 
 
 [Retour au sommaire](#Sommaire)
 
-#7.- Installation du firmware Rockbox sur notre Sansa Clip Plus<a id="mark7"></a>
+# 7.- Installation du firmware Rockbox sur notre Sansa Clip Plus<a id="mark7"></a>
 Voilà on installe Rockbox donc!!!    
 Environ 10 minutes chrono!    
 
@@ -473,7 +472,7 @@ Puis fermé à ce moment l'assistant de Rockbox utility, via le menu Fichier Alt
 
 [Retour au sommaire](#Sommaire)
  
-#8.- Installation de la voix en français pour un Sansa Clip Plus.<a id="mark8"></a>
+# 8.- Installation de la voix en français pour un Sansa Clip Plus.<a id="mark8"></a>
 
 Si vous souhaitez utiliser le support de voix, vous aurez également besoin d'un fichier de voix. Les fichiers de voix (.voice) permettent à Rockbox de verbaliser l'interface utilisateur pour vous. Rockbox Utility peut installer un fichier de voix en anglais (en-us), ou vous pouvez le télécharger à partir de [cette page (en anglais)](https://www.rockbox.org/daily.shtml)    
 Une fois ouvert cette page, chercher le mot:    
@@ -518,7 +517,7 @@ Si solution mille merci par avance de le signaler!
 
 [Retour au sommaire](#Sommaire)
 
-#9.- Configuration de la langue en français pour un lecteur Sansa Clip Plus.<a id="mark9"></a>
+# 9.- Configuration de la langue en français pour un lecteur Sansa Clip Plus.<a id="mark9"></a>
 
 Voici la procèdure pour la configuration du Sansa Clip Plus en francais.    
 Notre ami Sof nous dit :    
@@ -612,13 +611,13 @@ C'est fini, débranchez l'appareil Sansa Clip Plus en toute sécurité, (n'essay
 Cette étape est indispensable pour l'installation de Rockbox. Si le firmware n'est pas mis à jour, Rockbox ne pourra pas se lancer.    
 Dès qu'il est débranché, la mise à jour commence : il s'affiche "Mise à jour du firmware" sur le lecteur pendant environ 10 secondes, puis il s'éteint tout seul.    
  Et quand on le rallume... tout est installé, Rockbox se lancera et le balladeur devrait parler en français! :-)    
- À moins que vous vous l'avez installé et configuré en anglais.    
+ À moins que vous l'avez installé et configuré avec la langue en anglais.    
  Par défaut c'est maintenant toujours Rockbox qui se lancera au lieu du firmware Sansa Clip Plus. :-P    
 Enjoy! 8-)     
 
 [Retour au sommaire](#Sommaire)
 
-#10.- Description physique ddu Sansa Clip Plus.<a id="mark10"></a>
+# 10.- Description physique ddu Sansa Clip Plus.<a id="mark10"></a>
 
 Voici un descriptif des touches, boutons et les prises etc.    
 
@@ -678,7 +677,7 @@ Pour écouter de la bonne sic ou une station de radio!!! c'est cool!!!
 
 [Retour au sommaire](#Sommaire)
 
-#11.- Recommandations utils!<a id="mark10"></a>
+# 11.- Recommandations utils!<a id="mark10"></a>
 
 Pour arrêter votre Sansa Clip Plus, il faut maintenire la touche enfoncé  environ 2 secondes.   
 Pour verrouillé  votre Sansa Clip Plus appuyer sur le bouton Accueil quelques secondes.    
@@ -698,7 +697,7 @@ Quand on l'allume on écoute le nom du dossier ou nous étions par exemple si on
 
 [Retour au sommaire](#Sommaire)
 
-#12.- COMMENT UTILISER  mon lecteur Sansa Clip Plus à l'aide de Rockbox?<a id="mark12"></a>
+# 12.- COMMENT UTILISER  mon lecteur Sansa Clip Plus à l'aide de Rockbox?<a id="mark12"></a>
 
 Note: N'oubliez pas que La batterie doit être complètement chargée avant la première utilisation du lecteur!, je pense que s'il est en 50% c'est bon pour installer le firmware Rockbox.    
 P.S: La charge de la batterie prend environs trois heures.    
@@ -729,11 +728,11 @@ Système ; ((donne accès à l'information du système).
 
 [Retour au sommaire](#Sommaire)
 
-#13.- FONCTIONS DES TOUCHES <a id="mark13"></a>
+# 13.- FONCTIONS DES TOUCHES <a id="mark13"></a>
 
 1.- Pour naviguer entre les différents menus des options du lecteur, vous devez utiliser la grande touche directionnel  en touche en forme de carré la quelle je l'appellerai  touche de navigation.    
 
-2.-  pour rentrer dans l'un des menus du lecteur, vous devez appuyer sur la  touche en forme de petit carré afin de valider votre choix. Cette touche je l'appellerai touche de sélection, celui-ci se situe dans la touche de navigation.    
+2.- Pour rentrer dans l'un des menus du lecteur, vous devez appuyer sur la  touche en forme de petit carré afin de valider votre choix. Cette touche je l'appellerai touche de sélection, celui-ci se situe dans la touche de navigation.    
 
 Une autre façon d'accéder à un sous-menu, c'est d'appuyez sur la flèche à droite de la touche de navigation.    
 Pour quitter un sous-menu, c'est d'appuyez sur la flèche à gauche de la touche de navigation.    
@@ -745,14 +744,14 @@ Cette même flèche du haut sert aussi pour faire une pause pendant la lecture d
 4.- Au moment de sélectionner un nouveau fichier afin d'être lù, la touche de lecture ou Pause, il n'est pas valide lorsque  on appui sur elle;  il va reprendre  ce qui avez au paravant.    
 Pour cela on doit aller avec la touche de navigation et la touche de sélection jusqu'à le fichier approprié, et avec la même touche de sélection validez la lecture du fichier préalablement sélectionné.    
 
-5.-  Pour retourner au menu principal de n'importe quelle position, simplement appuyez sur la petite touche qui est situer entre l'écran et le grand carré c'est-à-dire la touche de navigation vers le côté droit ; cette touche je l'appellerai  touche Accueil.    
+5.- Pour retourner au menu principal de n'importe quelle position, simplement appuyez sur la petite touche qui est situer entre l'écran et le grand carré c'est-à-dire la touche de navigation vers le côté droit ; cette touche je l'appellerai  touche Accueil.    
 Selon l'endroit où on se trouvent, le lecteur sera positionné.    
 Par exemple, si nous somme dans réglages son, une fois appuyer sur cette touche vous serez dans le menu principal de l'option de réglages. Mais si vous êtes à l'intérieur du dossier music entraint de parcourir le contenu de ce dossier, en appuyant sur la même touche, ils sera situés dans le menu principal de l'option de Dossiers et Fichier.    
 Cette même touche, si elle est enfoncée alors que nous sommes à l'écoute d'un fichier, il va être situés  dans le menu principale dans une option appelée Lecture en cour.    
 Si on maintien la touche de sélection  sur Lecture en cour on peut acceder aussi a les option tel que:    
 Aléatoire, Répéter, etc, etc...    
 
-6.- pour faire un enregistrement vocal, il suffit d'appuyer sur l'option du menu principal nommé:    
+6.- Pour faire un enregistrement vocal, il suffit d'appuyer sur l'option du menu principal nommé:    
 Enregistrement ;a l'aide de la touche de sélection.    
 Pour commencer l'enregistrement plus précisément, on doit appuyez sur la touche de sélection.    
 Puis l'enregistrement démarre.    
@@ -813,7 +812,7 @@ Le lecteur fera toujours démarrer le firmware original si elle est alimentée p
 
 [Retour au sommaire](#Sommaire)
 
-#14.- GESTION DES FICHIERS ET DES DOSSIERS<a id="mark14"></a>
+# 14.- GESTION DES FICHIERS ET DES DOSSIERS<a id="mark14"></a>
 
 Dans le lecteur, de la même façon que dans un PC on na la possibilité de Rénommé, Copier, coller, couper, supprimer, etc., tout fichier ou dossier.    
 Cela peut se faire en maintenant enfoncée la touche de sélection pendant une seconde.    
@@ -846,7 +845,7 @@ Biensur pour moi c'est plus simple de passer par l'explorateur de Windows!! Pour
 
 [Retour au sommaire](#Sommaire)
 
-#15.- COMMENT ÉCOUTER DE LA  RADIO FM ?<a id="mark15"></a>
+# 15.- COMMENT ÉCOUTER DE LA  RADIO FM ?<a id="mark15"></a>
 
 Notre lecteur Sansa Clip Plus possède une radio FM intégrée pour écouter des émissions de radio en direct.    
 Pour se faire il faut aller a l'option Radio FM, qui se trouve dans le menu principal, puis valider avec la touche de sélection.    
@@ -886,7 +885,7 @@ Il se trouve dans le chemin suivant :
 
 [Retour au sommaire](#Sommaire)
 
-#16.- Comment enregistrer une emission de Radio?<a id="mark16"></a>
+# 16.- Comment enregistrer une emission de Radio?<a id="mark16"></a>
 
 Vous pouvez enregistrer une émission de Radio avec Radio FM pendant l'écoute de celui-ci.    
 
@@ -899,7 +898,7 @@ Exemple :
 
 [Retour au sommaire](#Sommaire)
 
-#17.- Programmation des présélections des vos Radio FM<a id="mark17"></a>
+# 17.- Programmation des présélections des vos Radio FM<a id="mark17"></a>
 
 Vous pouvez Enregistrer une présélection jusqu'à 64 de vos stations de radio FM favorites les quelles peuve être enregistré comme présélections.    
 Flêche bas pour ouvrire le sous-menu pour aller au menu, puis sélectionnez:    
@@ -1013,7 +1012,7 @@ Maintenant on peut sélectionner une présélection!!!
 
 [Retour au sommaire](#Sommaire)
 
-#18.- Sélectionner une présélection<a id="mark18"></a>
+# 18.- Sélectionner une présélection<a id="mark18"></a>
 
 Appuyer sur la touche de Sélection pour aller à la liste des présélections.    
 Utilisez les boutons du Volume Haut  et Volume bas pour déplacer le curseur, puis appuyez sur la touche de Sélection ou la flêche droite pour choisir.    
@@ -1027,7 +1026,7 @@ Note : La radio  FM sera désactiver lors du démarrage de la  lecture d'un fich
 
 [Retour au sommaire](#Sommaire)
 
-#19.- Comment utiliser le clavier virtuel?<a id="mark19"></a>
+# 19.- Comment utiliser le clavier virtuel?<a id="mark19"></a>
 
 C'est le clavier virtuel qui est utilisé lorsque vous entrer du texte dans Rockbox, par  exemple lorsque vous renommer un fichier ou créez un nouveau répertoire. Le clavier virtuel peut être facilement changé en faisant un fichier texte avec la configuration requise.    
 
@@ -1056,14 +1055,14 @@ Un long appui sur la touche de Sélection on va sortire  du clavier virtuel et e
 
 [Retour au sommaire](#Sommaire)
 
-#20.- Mettre de la musique sur votre lecteur Sansa Clip Plus<a id="mark20"></a>
+# 20.- Mettre de la musique sur votre lecteur Sansa Clip Plus<a id="mark20"></a>
 
 avec le lecteur Sansa Clip Plus connecté à l'ordinateur comme un Disque amovible MSC/UMS (comme un lecteur USB), les fichiers  de musique peuvent être mis sur le lecteur par l'intermédiaire de toute méthode de transfert de fichier standard que vous  utiliseriez pour copier des fichiers entre lecteurs (p. ex. Drag-and-Drop). Les fichiers peuvent être placées partout où vous  le souhaitez sur le lecteur, mais il est fortement suggéré de ne pas les placer dans le dossier /.rockbox.    
  par défaut La structure des répertoires par certaines parties de Rockbox (balise manquant de secours dans certains WPS)  qui  est supposée utiliser le répertoire parent d'une chanson comme le nom de l'Album et le répertoire parent de ce dossier au nom  de l'artiste. WPS (While Playing Screen) peut afficher les informations de manière incorrecte si vos fichiers ne sont pas correctement étiquetés et que vous avez votre musique organisé de manière différente de celle assumée par eux lorsqe ils tente de deviner les noms de l'artiste et l'Album de votre arborescence de fichiers.    
 
 [Retour au sommaire](#Sommaire)
 
-#21.- AJOUT D'UN DOSSIER contenant de la MUSIQUE<a id="mark21"></a>
+# 21.- AJOUT D'UN DOSSIER contenant de la MUSIQUE<a id="mark21"></a>
 
 Notre lecteur Sansas Clip Plus, peut lire des fichiers contenant de la musique    
 Pour cela il suffit d'avoir au préalable créer un dossier dans le quelle inclus des fichiers de musique en format MP3.    
@@ -1081,7 +1080,7 @@ Bienssûre  si vous le souhaitez, vous pouvez placez le dossier contenant vos fi
 
 [Retour au sommaire](#Sommaire)
 
-#22.- Créer et transférer des listes de lecture M3U sur mon lecteur Sansa Clip Plus<a id="mark22"></a>
+# 22.- Créer et transférer des listes de lecture M3U sur mon lecteur Sansa Clip Plus<a id="mark22"></a>
 
 Voici une fonction qui peut nous servir afin de jouer nos pistes qui se trouve dans un dossier placez dans le dossier MUSIC, par exemple, suivez le guide!    
 
@@ -1106,7 +1105,7 @@ le nom du dossier qui contient vos pistes en forme mp3+ le nom de la piste avec 
 
 [Retour au sommaire](#Sommaire)
 
-#23.-Comment écoutez une playlist avec mon Sansa Clip Plus?<a id="mark23"></a>
+# 23.- Comment écoutez une playlist avec mon Sansa Clip Plus?<a id="mark23"></a>
 
 1.- Au préalable il faut créer un fichier comme extention .m3u.    
 Vous vous pouvez aussi utiliser l'editeur Notepad++ par exemple.    
@@ -1144,7 +1143,7 @@ N'oubliez pas de fermez l'éditeur de texte et enregistrez le fichier m3u avant 
 
 [Retour au sommaire](#Sommaire)
 
-#24.- La carte MicroSDHC<a id="mark24"></a>
+# 24.- La carte MicroSDHC<a id="mark24"></a>
 
 On peut insérer une carte MicroSDHC dans notre lecteur Sansa Clip Plus.    
 
@@ -1191,7 +1190,7 @@ Mais le dossier LIFEBOLG est visible si On accède par l'élément Dossiers et F
 
 [Retour au sommaire](#Sommaire)
 
-#25.- LA VOIX EN ROCKBOX<a id="mark25"></a>
+# 25.- LA VOIX EN ROCKBOX<a id="mark25"></a>
 
 À savoir que l'interface en anglais est différente du français et cette première  ne sera pas traitée dans ce tutoriel.    
 Mais je ne vais pas vous laisser lâcher tout de suite  dans la nature, car il existe une documentation très détaillée à télécharger ou à consulter en ligne pour le lecteur Sansa Clip Plus  dans la langue de Shakespeare.    
@@ -1248,20 +1247,20 @@ Une fois ouverte la page voir la section"Voiced names for directories and files"
 
 [Retour au sommaire](#Sommaire)
 
-#26.- Mise à jour du firmware Rockbox sur notre Sansa Clip Plus<a id="mark26"></a>
+# 26.- Mise à jour du firmware Rockbox sur notre Sansa Clip Plus<a id="mark26"></a>
 
 Pour mettre à jour le firmware Rockbox, il suffit d'utiliser Rockbox Utility comme pour la première installation mais en cochant la case Rockbox seulement cette fois. En effet, l'installation du bootloader n'est nécessaire que pour la première installation, pas pour les mises à jour du firmware Rockbox.    
 
 [Retour au sommaire](#Sommaire)
 
-#27.- Désinstallation du firmware Rockbox sur notre Sansa Clip Plus<a id="mark27"></a>
+# 27.- Désinstallation du firmware Rockbox sur notre Sansa Clip Plus<a id="mark27"></a>
 
 Je doute que quelqu'un souhaite le faire, :-(    
 mais si vraiment vous y tenez, il suffit alors de réinstaller le firmware Sansa Clip Plus d'origine que vous avez téléchargé en mettant le fichier *.bin à la racine de votre Sansa Clip Plus puis en le laissant mettre à jour le firmware lors de la déconnexion de l'appareil. Ce fichier *.bin n'ayant pas été patché par Rockbox Utility, il ne contient donc plus le bootloader Rockbox. Ensuite et enfin, supprimez tout simplement le dossier .rockbox à la racine de votre baladeur Sansa Clip Plus.    
 
 [Retour au sommaire](#Sommaire)
 
-#28.- Documentation annexe pour le lecteur Sansa Clip Plus<a id="mark28"></a>
+# 28.- Documentation annexe pour le lecteur Sansa Clip Plus<a id="mark28"></a>
 
 Télécharger le fichier en .PDF
 [clipplus-fr-um.pdf](http://downloads.sandisk.com/downloads/um/clipplus/clipplus-fr-um.pdf)    
@@ -1276,7 +1275,7 @@ Sachez que des âmes charitables  de l'équipe de RockBox ont écrit un manuel d
 
 [Retour au sommaire](#Sommaire)
 
-#29.- Mots final<a id="mark29"></a>
+# 29.- Mots final<a id="mark29"></a>
 
 Chers amis du blog de RockboxFR Je pense avoir fait le tour des fonctions de base du Sansa Clip Plus!    
 En tout cas pour la lecture des fichiers audio puis la radio FM déjà se n'est pas trop mal! lol de lol!    
