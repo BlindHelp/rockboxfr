@@ -1,5 +1,6 @@
 ---
 title: Tuto pour l'installation de rockbox et utilisation du Sandisk Sansa Clip Plus
+permalink: "/Tuto pour l'installation de rockbox et utilisation du Sandisk Sansa Clip Plus/"
 layout: post
 author: RockboxFR
 commentsId: 2
