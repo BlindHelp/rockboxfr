@@ -6,11 +6,11 @@ author: RockboxFR
 commentsId: 2
 ---
 
-<footer>Mardi 15 Septembre 2020</footer>
+<footer>Mardi 15 Septembre 2020 - Dernière mise à jour Mardi 22 Avril 2025</footer>
 
 
 Coucou mes amis du blog de RockboxFR!    
-Je viens d'acheter le Sansa Clip Plus - Lecteur MP3 - Radio FM - 8 Go - Noir un produit de la firme Sandisk, actuellement disponible pour 199,00€ plus frais d'envoi: 6,99€ donc ça fait en total: 205,99€ en neuf (pas en reconditionné) sur un site de vente que tout le monde trouvera en 2 clics.    
+Je viens d'acheter le Sansa Clip Plus - Lecteur MP3 - Radio FM - 8 Go - Noir un produit de la firme [SanDisk](https://www.sandisk.com/), actuellement disponible pour 199,00€ plus frais d'envoi: 6,99€ donc ça fait en total: 205,99€ en neuf (pas en reconditionné) sur un site de vente que tout le monde trouvera en 2 clics.    
 Note : On peut ajouter des cartes  MicroSDHC jusqu'à 32 go!.    
 Il est arrivé dans les cinq jours ouvrables à partir de la date de la commande. 😃    
 Je l'ai déballé hier soir, pour la première fois vous devriez le commencer à charger pendant environ trois heures à l'aide du câble fourni en le branchant sur votre PC.    
@@ -42,7 +42,7 @@ Il permet également :
 
 Logiciel qui n'efface pas les fichiers d'origine, et qui peut donc être désinstallé pour revenir au firmware initial (non testé, et ce n'est pas prévu :-)) 
 
-Vous trouverez plus d'informations sur le firmware Rockbox sur le [site officiel (page en anglais)](http://www.rockbox.org/)    
+Vous trouverez plus d'informations sur le firmware Rockbox sur le [site officiel (page en anglais)](https://www.rockbox.org/)    
 
 ## Tuto pour l'installation et utilisation de ROCKBOX sur un SANDISK Sansa Clip Plus.
 
@@ -254,8 +254,8 @@ Pour installer Rockbox sur notre Sansa Clip Plus, nous allons avoir besoin de Ro
 Lors de l'écriture de cet article la dernière  version en date de l'utilitaire Rockbox était la 1.4.1 sortie le 15.11.2019 pour la plate-forme Windows (7 / 8 / 10)    
 Mais le firmware Rockbox comporte comme numéro de version: 3.15    
 Ci-dessous Je vous donne le dernier lien de téléchargement de RockboxUtility trouvé sur cette page,  disponible sous Windows:
-[http://download.rockbox.org/rbutil/win32/RockboxUtility-v1.4.1.zip](http://download.rockbox.org/rbutil/win32/RockboxUtility-v1.4.1.zip)    
-Il est disponible aussi sous Linux et Mac, voir sur [cette page en anglais)](http://www.rockbox.org/wiki/RockboxUtility)    
+[https://download.rockbox.org/rbutil/win32/RockboxUtility-v1.4.1.zip](http://download.rockbox.org/rbutil/win32/RockboxUtility-v1.4.1.zip)    
+Il est disponible aussi sous Linux et Mac, voir sur [cette page en anglais)](https://www.rockbox.org/wiki/RockboxUtility)    
 Mais il est mis à jour de temps en temps donc à vous de vérifier occasionnellement si une nouvelle version corrigeant des bugs, apportant de nouvelles fonctionnalités ou prenant en charge de nouveaux modèles, n'est pas sortie.    
 Une fois ddécompresser vous devez trouver le fichier nommé :    
 `RockboxUtility.exe`    
@@ -406,7 +406,7 @@ Choisissez la version de Rockbox à installer entre Version stable (release) et 
 Utile sauf si vous avez un residue visuel.    
 Si vous souhaitez avoir des thèmes particuliers, choisissez les en cliquant sur le bouton Personnaliser afin d'installer.    
 `Personnaliser bouton`    
-Vous pouvez télécharger via Rockbox.org (page en anglais) deux thèmes qu'on m'a dit qu'ils sont très sympas, [Classic](http://themes.rockbox.org/index.php?themeid=1035&target=sansaclipplus) et [Equilibrium.](http://themes.rockbox.org/index.php?themeid=1534&target=sansaclipplus) Après c'est une question de goût!    
+Vous pouvez télécharger via Rockbox.org (page en anglais) deux thèmes qu'on m'a dit qu'ils sont très sympas, [Classic](https://themes.rockbox.org/index.php?themeid=1035&target=sansaclipplus) et [Equilibrium.](https://themes.rockbox.org/index.php?themeid=1534&target=sansaclipplus) Après c'est une question de goût!    
 Attention, le pack de polices est indispensable au bon fonctionnement de certains thèmes donc il est préférable de l'installer d'emblée dans tous les cas, même si vous n'installez pas tout de suite de thèmes, pour être tranquille par la suite.    
 `Fichiers de jeux case à cocher non coché`    
 Si vous êtes intéressés par Doom (oui, oui!), cochez la case Fichiers de jeux. Je ne l'ai pas essayé, mais on parle en bien.    
@@ -600,7 +600,7 @@ N'oubliez pas au préalable de consulter la section pour [l'Installation de la v
 # Téléchargement et mise en route du fichier de configuration en français:
 
 1.- Pour obtenir le fichier de configuration en français, vous devez télécharger le fichier nommé:    
-[FichierConfigRockboxFRClipPlus.zip](https://blindhelp.github.io/rockboxfr/FichierConfigRockboxFRClipPlus.zip)    
+[FichierConfigRockbox3.15FRSansaClipPlus.zip](https://blindhelp.github.io/rockboxfr/FichierConfigRockbox3.15FRSansaClipPlus.zip)    
 2.- Une fois ddécompresser vous devez trouver le fichier nommé:    
 `config.cfg`    
 3.- Maintenant il nous Reste Copier le fichier nommé:    
@@ -677,7 +677,7 @@ Pour écouter de la bonne sic ou une station de radio!!! c'est cool!!!
 
 [Retour au sommaire](#Sommaire)
 
-# 11.- Recommandations utils!<a id="mark10"></a>
+# 11.- Recommandations utils!<a id="mark11"></a>
 
 Pour arrêter votre Sansa Clip Plus, il faut maintenire la touche enfoncé  environ 2 secondes.   
 Pour verrouillé  votre Sansa Clip Plus appuyer sur le bouton Accueil quelques secondes.    
@@ -706,12 +706,13 @@ P.S: La charge de la batterie prend environs trois heures.
 Mais je ne vais pas vous laisser lâcher tout de suite  dans la nature, car il existe une documentation très détaillée à télécharger ou à consulter en ligne pour le lecteur Sansa Clip Plus  dans la langue de Shakespeare.    
 Faire Enregistrer la cible du lien sous... pour les deux premiers manuels (pdf et html-zip) pour le lire avec plus de confort.    
 [pdf 1403 kB](https://download.rockbox.org/daily/manual/rockbox-sansaclipplus.pdf)    
-[html-zip 599 kB](https://download.rockbox.org/daily/manual/rockbox-sansaclipplus-20200922-html.zip)    
+[html-zip 599 kB](https://download.rockbox.org/daily/manual/rockbox-sansaclipplus-html.zip)    
 Et voici ci-dessous ce même manuel en anglais consultable en ligne via Rockbox.org:    
 [online](https://download.rockbox.org/daily/manual/rockbox-sansaclipplus/rockbox-build.html)    
-Puis finalement voici ci-dessous la source de la page en anglais où j'ai fait la trouvaille, toujours via Rockbox.org:    
+Puis finalement voici ci-dessous les sources de la page en anglais où j'ai fait les trouvailles, toujours via Rockbox.org:    
 [Rockbox - Daily Built Manuals](https://www.rockbox.org/manual.shtml)    
-
+ou:    
+[Index of /daily/manual](https://download.rockbox.org/daily/manual/)    
 Si vous avez mis le fichier francais.voice comme indiqué plus haut suivez ces instructions:    
 
 1.- Allumez le lecteur Sansa Clip Plus, puis on trouve le menu principal de Rockbox.    
@@ -919,19 +920,63 @@ Sa ne vient pas de moi! mes Je vous donne ci-dessous le lien de téléchargement
 
 # Par régions
 
-Pour les régions de l'Amérique (Nord et Amérique du Sud) vous pouvez consulter [cette page (en anglais)](https://www.rockbox.org/wiki/Main/FmPresetsAmerica) et trouver puis télécharger les fichiers fmr correspondant à la région désirée, toujours via le site Rockbox.org.    
-Pour les régions Asiatiques vous pouvez consulter [cette page (en anglais)](https://www.rockbox.org/wiki/Main/FmPresetsAsia) et trouver puis télécharger les fichiers fmr correspondant à la région désirée, toujours via le site Rockbox.org.    
-Pour les régions Européennes vous pouvez consulter [cette page (en anglais)](https://www.rockbox.org/wiki/FmPresetsEurope) et trouver puis télécharger les fichiers fmr correspondant à la région désirée, toujours via le site Rockbox.org.    
-Pour les régions Océaniennes vous pouvez consulter [cette page (en anglais)](https://www.rockbox.org/wiki/Main/FmPresetsOceania) et trouver puis télécharger les fichiers fmr correspondant à la région désirée, toujours via le site Rockbox.org.    
-Pour les régions des Caraïbes vous pouvez consulter [cette page (en anglais)](https://www.rockbox.org/wiki/Main/FmPresetsCaribbean) et trouver puis télécharger les fichiers fmr correspondant à la région désirée, toujours via le site Rockbox.org.    
+Pour les régions de l'Amérique (Nord et Amérique du Sud) vous pouvez consulter [cette page (en anglais)](https://www.rockbox.org/wiki/FmPresetsAmerica.html) et trouver puis télécharger les fichiers fmr correspondant à la région désirée, toujours via le site Rockbox.org.    
+Pour les régions Asiatiques vous pouvez consulter [cette page (en anglais)](https://www.rockbox.org/wiki/FmPresetsAsia.html) et trouver puis télécharger les fichiers fmr correspondant à la région désirée, toujours via le site Rockbox.org.    
+Pour les régions Européennes vous pouvez consulter [cette page (en anglais)](https://www.rockbox.org/wiki/FmPresetsEurope.html) et trouver puis télécharger les fichiers fmr correspondant à la région désirée, toujours via le site Rockbox.org.    
+Pour les régions Océaniennes vous pouvez consulter [cette page (en anglais)](https://www.rockbox.org/wiki/FmPresetsOceania.html) et trouver puis télécharger les fichiers fmr correspondant à la région désirée, toujours via le site Rockbox.org.    
+Pour les régions des Caraïbes vous pouvez consulter [cette page (en anglais)](https://www.rockbox.org/wiki/FmPresetsCaribbean.html) et trouver puis télécharger les fichiers fmr correspondant à la région désirée, toujours via le site Rockbox.org.    
+
+## Télécharger les fichiers avec extension *.fmr
+
+Vous pouvez télécharger les fichiers preset avec extension  *.fmr à partir des liens situés ci-dessous pour une utilisation directe sur votre lecteur.    
+Placez le (s) fichier où vous voulez en fonction de vos préférences: à l'intérieur du chemin permanent:    
+`"/.rockbox/fmpresets/"`    
+(jusqu'à ce qu'un autre fichier soit sélectionné), ou dans chaque dossier que vous aimez (la liste prédéfinie sera chargée jusqu'à ce que vous arrêtiez l'unité, c'est-à-dire le lecteur).    
+
+## Régions de l'Amérique (Nord et Amérique du Sud)
+
+[fmr-america.zip](https://www.rockbox.org/realwiki/pub/Main/FmPresetsAmerica/fmr-america.zip)    
+Fichiers soumis le 02 mars 2008    
+
+## Régions Asiatiques
+
+[fmr-asia_071111.zip](https://www.rockbox.org/realwiki/pub/Main/FmPresetsAsia/fmr-asia_071111.zip)    
+Fichiers mis à jour le 11 novembre 2007    
+
+## Régions Européennes
+
+[fmr-europe.zip](https://www.rockbox.org/realwiki/pub/Main/FmPresetsEurope/fmr-europe.zip)    
+Fichiers soumis avant le 17 juin 2006    
+
+Remarque :    
+Pour les régions Océaniennes et les régions des Caraïbes je n'ai pas trouvé de lien  de téléchargement valide pour les  fichiers avec extension *.fmr    
 
 # Paquet Presets FM
 
-[fmr-complete.zip](http://www.rockbox.org/twiki/bin/viewfile/Main/FmPresets?rev=2;filename=fmr-complete_071111.zip)    
-Le paquet global contenant des fichiers fmr (dernière mise à jour le 11 novembre 2007).    
+Presets FM - syntoniseur radio FM pour diverses régions, le tout en un seul paquet.    
 
-Remarque: Le paquet global contenant des fichiers fmr qui est dans le dossier fmr-complete_060717//fmr-europe_060508/fmr-france_060508 comporte  le même contenu et la même date du fichier [fmr-france.zip](https://www.rockbox.org/wiki/pub/Main/FmPresetsEurope/fmr-france.zip)    
-(dernière mise à jour le 8 mai 2006).    
+Pour plus d'informations, veuillez consulter la page Wiki de Rockbox ci-après (en anglais):    
+
+[FmPresets - FM radio tuner Presets for various régions](https://www.rockbox.org/wiki/FmPresets.html)
+
+# Paquet Presets FM à télécharger:
+
+[fmr-complete.zip](https://www.rockbox.org/realwiki/pub/Main/FmPresets/fmr-complete.zip)    
+ou:    
+[fmr-complete_071111.zip](https://www.rockbox.org/realwiki/pub/Main/FmPresets/fmr-complete_071111.zip)    
+
+Ceux-ci est le paquet global contenant des fichiers fmr (Dernière mise à jour le 11 novembre 2007).    
+
+Remarque : Le paquet global contenant des fichiers fmr qui est dans l'archive:    
+[fmr-complete_071111.zip](https://www.rockbox.org/realwiki/pub/Main/FmPresets/fmr-complete_071111.zip)    
+Après avoir décompressé ledit archive, dans le dossier appelé:    
+`fmr-complete_060717`    
+dans le sous-dossier:    
+`fmr-europe_060508`    
+dans le sous-dossier:    
+`fmr-france_060508`    
+comporte  le même contenu et la même date de l'archive [fmr-france.zip](https://www.rockbox.org/realwiki/pub/Main/FmPresetsEurope/fmr-france.zip)    
+(Dernière mise à jour le 08 mai 2006).    
 
 # Convertisseurs prédéfinis
 
@@ -940,15 +985,15 @@ Ce sont des scripts de conversion pour convertir les fichiers FM prédéfinies e
 Note: Ne me demandez pas comment cela fonctionne, je donne seulement l'information pour les programmeurs qui veulent connaître plus à propos de ça.    
 Faire `"Enregistrer la cible du lien sous..."` sur chaque lien car ils sont des fichiers texte (*.txt).    
 
-[meizu2rockbox.txt - Meizu-To-Rockbox script by pabouk](https://www.rockbox.org/wiki/pub/Main/FmPresets/meizu2rockbox.txt)    
+[meizu2rockbox.txt - Meizu-To-Rockbox script by pabouk](https://www.rockbox.org/realwiki/pub/Main/FmPresets/meizu2rockbox.txt)    
 
-[rockbox2meizu.txt - Rockbox-To-Meizu script by pabouk](https://www.rockbox.org/wiki/pub/Main/FmPresets/rockbox2meizu.txt)    
+[rockbox2meizu.txt - Rockbox-To-Meizu script by pabouk](https://www.rockbox.org/realwiki/pub/Main/FmPresets/rockbox2meizu.txt)    
 
 Voici la page (en anglais): [FM Presets](https://www.rockbox.org/wiki/FmPresets) via Rockbox.org où j'ai fait la trouvaille:    
 
-Dans le cas présent, si vous avez téléchargé le fichier nommé:    
-[fmr-france.zip](https://www.rockbox.org/wiki/pub/Main/FmPresetsEurope/fmr-france.zip)    
-(dernière mise à jour le 8 mai 2006).    
+Dans le cas présent, si vous avez téléchargé l'archive nommé:    
+[fmr-france.zip](https://www.rockbox.org/realwiki/pub/Main/FmPresetsEurope/fmr-france.zip)    
+(Dernière mise à jour le 08 mai 2006).    
 Une fois désiper vous trouver un dossier nommé :    
 `fmr-france_060508`    
 le quelle inclus  60 fichiers sous forme .fmr    
@@ -978,8 +1023,8 @@ Si vous vivez à Paris par exemple.
 ou rechercher votre propre région qui se trouve dans le dossier nommé:    
 `fmr-france_060508`    
 le quelle inclus  60 fichiers sous forme .fmr    
-Une fois désiper le fichier nommé:
-[fmr-france.zip](https://www.rockbox.org/wiki/pub/Main/FmPresetsEurope/fmr-france.zip)    
+Une fois désiper l'archive nommé:
+[fmr-france.zip](https://www.rockbox.org/realwiki/pub/Main/FmPresetsEurope/fmr-france.zip)    
 Débranchez votre Lecteur Sansa Clip Plus du PC.    
 Aller sur Radio FM    
 Faire flèche bas puis chercher «charger liste de stations »  et appuyer sur la touche Select.    
@@ -1199,9 +1244,10 @@ Faire Enregistrer la cible du lien sous... pour les deux premiers manuels (pdf e
 [html-zip 599 kB](https://download.rockbox.org/daily/manual/rockbox-sansaclipplus-20200922-html.zip)    
 Et voici ci-dessous ce même manuel en anglais consultable en ligne via Rockbox.org:    
 [online](https://download.rockbox.org/daily/manual/rockbox-sansaclipplus/rockbox-build.html)    
-Puis finalement voici ci-dessous la source de la page en anglais où j'ai fait la trouvaille, toujours via Rockbox.org:    
+Puis finalement voici ci-dessous les sources de la page en anglais où j'ai fait les trouvailles, toujours via Rockbox.org:    
 [Rockbox - Daily Built Manuals](https://www.rockbox.org/manual.shtml)    
-
+ou:    
+[Index of /daily/manual](https://download.rockbox.org/daily/manual/)    
 Si vous avez mis le fichier francais.voice comme indiqué plus haut suivez ces instructions:    
 Pour configurer la voix qui va nous guider dans différents répertoires et fichiers, ainsi que dans les menus, il faut aller sur Réglages, puis a l'aide de la touche de navigation il faut chercher puis valider avec la touche de sélection l'option Réglages généraux, puis à nouveau avec la touche de navigation chercher puis valider avec la touche de sélection l'option Interface vocal.    
 Chercher les options des menus à l'aide de la touche de navigation.    
