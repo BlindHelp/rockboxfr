@@ -1921,6 +1921,9 @@ Bref cette documentation est plus pour nos amis voyants n'utilisant pas  le firm
 # Avant de vous lâcher dans la nature
 Sachez que des âmes charitables  de l'équipe de RockBox ont écrit un manuel d'utilisation pour Rockbox sur le Sansa Clip Plus, vous le trouverez [ici en PDF (en anglais).](http://download.rockbox.org/manual/rockbox-sansaclipplus.pdf)    
 
+Note:    
+Vous pouvez le consulter en ligne ou le télécharger puis le lire avec votre lecteur PDF préféré.    
+
 # Composants de Rockbox à télécharger et installer manuellement:
 Vous pouvez les télécharger à partir de [cette page (en anglais)](https://www.rockbox.org/daily.shtml)    
 
@@ -1941,7 +1944,7 @@ Amusez-vous bien avec votre lecteur Sansa Clip Plus!
 Merci beaucoup à    <span lang="en">Solomon Peachy!</span> pour avoir partagé ces informations de cette nouvelle mise à jour du firmware Rockbox dans sa dernière version 4.0 pour le lecteur SanDisk Sansa Clip+. :)    
 Profitez de Rockbox - un microprogramme pour les lecteurs de musique numérique gratuit!    
 @+    
-BlindHelp!    
+BlindHelp! 🇫🇷   
 
 [Retour au sommaire](#Sommaire)
 

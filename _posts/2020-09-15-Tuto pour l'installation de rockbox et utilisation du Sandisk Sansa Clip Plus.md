@@ -1353,7 +1353,7 @@ En tout cas pour la lecture des fichiers audio puis la radio FM déjà se n'est 
 amusez-vous bien avec votre lecteur Sansa Clip Plus!    
 Voilà, maintenant vous savez tout!    
 Arobamicalement à vous.    
-Rémy (BlindHelp!)
+Rémy (BlindHelp!) 🇫🇷
 
 [Retour au sommaire](#Sommaire)
 
