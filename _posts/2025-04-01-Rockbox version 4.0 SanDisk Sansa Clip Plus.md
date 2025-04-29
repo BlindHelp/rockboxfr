@@ -1,56 +1,120 @@
 ---
-title: Tuto pour l'installation de rockbox et utilisation du Sandisk Sansa Clip Plus
-permalink: "/Tuto-pour-l'installation-de-rockbox-et-utilisation-du-Sandisk-Sansa-Clip-Plus/"
+title: Rockbox version 4.0 - Téléchargement et installation pour le lecteur SANDISK Sansa Clip Plus
+permalink: "/rockbox-4-0-released-for-sansaclipplus-player/"
 layout: post
 author: RockboxFR
-commentsId: 2
+commentsId: 5
 ---
 
-<footer>Mardi 15 Septembre 2020 - Dernière mise à jour Mardi 29 Avril 2025</footer>
+<footer>Mardi Ier Avril 2025 - Dernière mise à jour Mardi 29 Avril 2025</footer>
 
 
 Coucou mes amis du blog de RockboxFR!    
-Je viens d'acheter le Sansa Clip Plus - Lecteur MP3 - Radio FM - 8 Go - Noir un produit de la firme [SanDisk](https://www.sandisk.com/), actuellement disponible pour 199,00€ plus frais d'envoi: 6,99€ donc ça fait en total: 205,99€ en neuf (pas en reconditionné) sur un site de vente que tout le monde trouvera en 2 clics.    
-Note : On peut ajouter des cartes  MicroSDHC jusqu'à 32 go!.    
-Il est arrivé dans les cinq jours ouvrables à partir de la date de la commande. 😃    
-Je l'ai déballé hier soir, pour la première fois vous devriez le commencer à charger pendant environ trois heures à l'aide du câble fourni en le branchant sur votre PC.    
-Une fois que vous l'avez branchée vous trouverez le lecteur dans le poste de travail comme nom:    
-`Sansa Clip+ 8GB`    
+Avant de me décider de mettre en route l'installation de ce firmware Rockbox dans sa dernière version 4.0 sur mon lecteur    
+![sansa clip plus rockbox](https://blindhelp.github.io/rockboxfr/sansa_clip_plus_rockbox.jpg "Sansa Clip Plus Rockbox")    
+un produit de la firme [Sandisk](https://www.sandisk.com/)    
+bien que je n'étais pas aussi emballé Comme je l'avais commenté à la fin de mon post précédent, ici, je mets quelques informations d'intérêt sur cette nouvelle version:    
+Cette nouvelle mise à jour du Firmware Rockbox maintenant en version 4.0 avec un intervalle de publication de 5 ans entre L'ancienne version a été publié le mardi 1er avril 2025.    
+Cependant, dans l'un de mes premiers articles dans le blog de RockboxFR :    
+[Tuto pour l'installation de rockbox et utilisation du Sandisk Sansa Clip Plus](https://blindhelp.github.io/rockboxfr/Tuto-pour-l'installation-de-rockbox-et-utilisation-du-Sandisk-Sansa-Clip-Plus/)    
+j'avais utilisé la dernière  version en date de l'utilitaire Rockbox qui était la 1.4.1 sortie le 15.11.2019 pour la plate-forme Windows (7 / 8 / 10    
+Mais le firmware Rockbox comporté comme numéro de version: 3.15    
 
-Donc voici ci-dessous a tout fin utile la tuto pour l'installation du firmware Rockbox et le mode d'emploi uniquement pour le lecteur Sansa Clip Plus.    
+Pendant ce temps, des améliorations approfondies ont été apportées à chaque partie de la base de code de Rockbox, avec plus de 660 000 lignes de code modifiées par plus de 80 auteurs. Les changements les plus significatifs depuis la version antérieure comprennent:    
 
-Mille merci à nouveau à mes amis Sof, Desertix et Stephane pour leurs précieux conseils!    
-Je vous souhaite une bonne lecture!    
+## Les appareils supprimés
 
-Mais avant tout je vais décrire ci-dessous les points principaux de ce qui fait le firmware Rockbox avec les lecteurs compatibles (y compris le lecteur Sansa Clip Plus):    
+* Archos Player/Studio
+* Archos Recorder / v2
+* Archos FM Recorder
+* Archos Ondio FM / SP
 
-# C'est quoi Rockbox?
+Rockbox a été écrit à l'origine pour le lecteur Archos, cela représente la fin d'une époque. L'élimination de la prise en charge à ces appareils anciens a considérablement réduit la complexité interne du cœur de Rockbox et a aidé à stimuler une renaissance du développement. Les versions antérieures resteront disponibles indéfiniment, et le site de thème continuera d'héberger des thèmes pour les appareils Archos tant qu'il reste l'intérêt des utilisateurs.    
+Cependant, à partir de cette nouvelle version de Rockbox, les nouveaux appareils ont été pris en charge par le firmware Rockbox:    
 
-Rockbox est un logiciel, ou firmware, qui permet d'étendre les fonctionnalités de nombreux lecteurs mp3 ou multimédia. En plus de lire d'autres formats, comme le WAV par exemple, il permet de nombreux réglages simples (avec le choix d'ambiances : rock, classique…) ou très précis (avec un nombre d'options sonores ou visuelles impressionnant).    
-Il permet également :    
+## Prise en charge des nouveaux appareils
 
-* De supprimer les coupures entre 2 morceaux 
-* De modifier la vitesse de lecture ainsi que la tonalité, et de choisir parmi plusieurs modes pour l'équaliser
-* D'enregistrer sur différents formats (radio et dictaphone)
-* D'afficher le nom de la radio (et non juste la fréquence) et de changer de liste de présélections selon la ville où l'on se trouve (en téléchargeant ou en créant ces listes)
-* De personnaliser l'apparence du lecteur ou télécharger un thème parmi une trentaine déjà existant (choix des nombreuses infos qui peuvent s'afficher pendant la lecture, taille et police des caractères…)
-* De disposer d'un oscilloscope, métronome, calendrier, d'une calculatrice, horloge (binaire, digitale, avec la date…), alarme (reprise de la lecture a l'heure voulue)
-* D'écrire un N° de téléphone ou une petite note 
-* De jouer malgré son petit écran : Démineur, Pong, Sudoku, Snake...
-* D'afficher les morceaux par noms ou par "Tags", comme initialement
-* De faciliter l'utilisation du lecteur aux personnes malvoyantes (plug-in pour un menu audio)
+* AIGO EROS Q et EROS K (des clones tels que AGPTek H3, HifiWlaker H2, et Surfans F20)
+* FiiO M3K
+* Shanling Q1
+* xDuoo X3ii et X20
 
-Logiciel qui n'efface pas les fichiers d'origine, et qui peut donc être désinstallé pour revenir au firmware initial (non testé, et ce n'est pas prévu :-)) 
+Mais comme il y a plus de changements et ce serait très étendu de les mentionnées ici, Vous pouvez lire la suite des changements depuis la page en anglais ci-dessous:    
+<https://www.rockbox.org/wiki/ReleaseNotes400#What_39s_new_63>
+
+Les critères de couverture de chaîne de traduction sont considérablement plus stricts que dans les versions antérieures. Les traductions complémentaires (ou mises à jour) sont toujours les bienvenues. (Voir la page en anglais <https://translate.rockbox.org> et [LangFiles](https://www.rockbox.org/wiki/LangFiles.html) pour plus d'informations sur la façon de contribuer) Remarque: De nombreux plugins ne sont pas actuellement traduits (ou parlés), surtout s'ils sont adaptés des bases de code tiers. Les correctifs sont les bienvenus!
+
+## Couverture vocale
+
+La couverture vocale des fonctionnalités hors concours de Rockbox est une interface utilisateur entièrement parlée. Dans le cadre de cette version, nous fournissons des fichiers vocaux pré-générés pour les langues suivantes:    
+Brésilien Portugais, Bulgare, chinois (simplifié), tchèque, néerlandais, latvian (UK), anglais (États (Péninsulaire), slovaque, turc    
+note: des voix bulgares, coréennes et slovaques ont été générées à l'aide de [eSpeak NG](https://github.com/espeak-ng/espeak-ng), mais le reste a été généré à l'aide de [Piper](https://github.com/rhasspy/piper).    
+Les utilisateurs peut créer leurs propres fichiers vocaux pour n'importe quel langue pris en charge avec une variété de moteurs TTS à l'aide de [l'utilitaire Rockbox](https://www.rockbox.org/wiki/RockboxUtility.html) ou des outils en ligne de commande.    
+
+## Plugins
+
+Pour les nouveau Plugins ajoutés dans cette nouvelle version de Rockbox voir la section ci-dessous sur la page des changements (en anglais):    
+
+<https://www.rockbox.org/wiki/ReleaseNotes400#What_39s_new_63>
+
+## Changements complémentaires
+
+La liste détaillée de toutes les modifications depuis la version précédente est disponible dans le Changelog officiel ci-dessous (toujours en anglais).    
+
+<https://www.rockbox.org/wiki/MajorChanges>
+
+## Ports stables
+
+Pour ces lecteurs, Rockbox fonctionne bien et a une documentation appropriée, y compris les instructions d'installation:
+
+* Aigo: Eros Q, Eros K (et des clones tels que AGPTek H3, HifiWlaker H2, et Surfans F20)
+* Apple: iPod 1g à 6g (Classic), iPod Mini 1g et 2g, iPod Nano 1g et 2g
+* AGPTek Rocker
+* Archos: Jukebox 5000, 6000, Studio, Recorder, FM Recorder, Recorder V2 et Ondio
+* Cowon: iAudio M3 series, iAudio M5 series, iAudio X5 series
+• Creative: Zen Mozaic, Zen X-Fi, Zen X-Fi Style, Zen X-Fi3
+* FiiO: M3K
+* iriver:x H10 series, H100 series, H300 series
+* MPIO: HD300
+• Olympus: M-Robe 100
+* Packard Bell: Vibe 500
+* Philips: GoGear HDD1630, GoGear HDD6330, GoGear SA9200
+• Samsung: YH-820, YH-920, YH-925
+* Sandisk: Sansa c200, e200, Clip, Clip Zip, Clip+, Fuze, Fuze+
+* Shanling: Q1
+• Sony: NWZ-E360 series, NWZ-E370 series, NWZ-E380 series
+* Toshiba: Gigabeat F/X series
+* xDuoo X3, X3ii, et X20
+
+POUR VOTRE INFORMATION    
+Voici plus bas un commentaire de mon ami Stephane 🇫🇷 (Voyant) à propos du statut officiel du lecteur: Cowon D2 :    
+
+> malgré son statut officiel, le Cowon D2 est selon moi tout à fait stable (j'en ai 2 depuis ~20 ans). le seul truc qui ne fonctionne pas du tout est la navigation par tag. Avec ses boutons et son écran tactile il est facile à utiliser les yeux fermés. Il est rare d'en trouver mais reste intéressant car    
+> 1- solidement construit    
+> 2- neuf il a une une grosse autonomie donc il en reste assez après des années    
+> 3- on trouve des batteries de rechange et un bricoleur avisé peut facilement les remplacer.    
+
+> Tshaw !!    
+
+> Steph    
+
+Rockbox fonctionne sur de nombreux autres lecteurs qui sont considérés comme instables ou sont confrontés à des problèmes importants empêchant une version formelle et favorable. Pour une liste complète, voir la page [TargetStatus (en anglais)](https://www.rockbox.org/wiki/TargetStatus.html).
 
 Vous trouverez plus d'informations sur le firmware Rockbox sur le [site officiel (page en anglais)](https://www.rockbox.org/)    
 
-## Tuto pour l'installation et utilisation de ROCKBOX sur un SANDISK Sansa Clip Plus.
+Voilà pour la mise au point du firmware Rockbox jusqu'à la version 4.0 publié le 01.04.2025    
+
+Avant d'entrer au vif du sujet je voulais dire mille merci à nouveau à mes amis Sof, Desertix et Stephane pour leurs précieux conseils!    
+
+Je vous souhaite une bonne lecture!    
+
+## Rockbox version 4.0 - Téléchargement et installation pour le lecteur SANDISK Sansa Clip Plus
 
 Attention : Comme d’habitude, vous êtes seuls responsables de vos actes, le mode opératoire que je donne ici a fonctionné pour moi mais je ne saurais être tenu pour responsable en cas de pépins, vous êtes prévenus !    
 
 Sommaire <a id="Sommaire"></a>
 -------------
-[1.- Description du produit.](#mark1)    
+[1.- Introduction.](#mark1)    
 [2.- Découverte du Sansa Clip Plus et premier pas.](#mark2)    
 [3.- Préréglages de notre lecteur Sansa Clip Plus](#mark3)    
 [4.- Téléchargement des fichiers avant l'installation du firmware Rockbox](#mark4)    
@@ -58,7 +122,12 @@ Sommaire <a id="Sommaire"></a>
 [6.- Branchement de notre lecteur Sansa Clip Plus au PC.](#mark6)    
 [7.- Installation du firmware Rockbox sur notre Sansa Clip Plus.](#mark7)    
 [8.- Installation de la voix en français pour un Sansa Clip Plus.](#mark8)    
-[9.- Configuration de la langue en français pour un lecteur Sansa Clip Plus.](#mark9)    
+[8.1.- Créer les fichiers d'annonce  en français pour un Sansa Clip Plus.](#mark8-1)    
+[9.- Les fichiers de configuration .cfg](#mark9)    
+[9.1.- Spécifications pour les fichiers .cfg](#mark9-1)    
+[9.2.- Exemple d'un fichier de configuration](#mark9-2)    
+[9.3.- Exemple d'un fichier de configuration incluant l'ajout d'une radio de ma région](#mark9-3)    
+[9.4.- Fichier config.cfg en utilisant Rockbox 4.0 avec la configuration minimale requise configurée pour la langue en français suivi d'autres réglages additionnels incluant l'ajout d'une radio de ma région  pour notre lecteur Sansa Clip Plus](#mark9-4)    
 [10.- Description physique du Sansa Clip Plus.](#mark10)    
 [11.- Recommandations utils!](#mark11)    
 [12.- COMMENT UTILISER  mon lecteur Sansa Clip Plus à l'aide de Rockbox?](#mark12)    
@@ -76,74 +145,24 @@ Sommaire <a id="Sommaire"></a>
 [24.- La carte MicroSDHC](#mark24)    
 [25.- LA VOIX EN ROCKBOX](#mark25)    
 [26.- Mise à jour du firmware Rockbox sur notre Sansa Clip Plus.](#mark26)    
+[26.1.- Installation manuelle des polices pour notre lecteur Sansa Clip Plus.](#mark26-1)    
+[26.2.- Installation manuelle des thèmes pour notre lecteur Sansa Clip Plus.](#mark26-2)    
+[26.3.- Installation manuelle de la documentation en anglais pour notre lecteur Sansa Clip Plus.](#mark26-3)    
 [27.- Désinstallation du firmware Rockbox sur notre Sansa Clip Plus.](#mark27)    
 [28.- Documentation annexe pour le lecteur Sansa Clip Plus](#mark28)    
 [29.- Mots final ](#mark29)    
 
 ---
 
-# 1.- Description du produit.<a id="mark1"></a>
+# 1.- Introduction.<a id="mark1"></a>
 
-Voici la description du produit  Sandisk \- Sansa Clip Plus - Lecteur MP3 - Radio FM - 8 Go - Noir    
+Dans ce tutoriel, je ne traiterai pas de la description du produit, cependant, certaines descriptions ou manipulations pour le lecteur SANDISK Sansa Clip Plus sont mentionnées tout au long de ce post comme un rappel pour les utilisateurs de ce lecteur avec le firmware Rockbox.    
 
-Un lecteur MP3 pas très récent de chez Sandisk (sortie en 2009.    
-Parfois, une image vaut 1000 mots! :)    
+Pour plus de détails sur la description du produit vous pouvez lire l'intégralité sur l'un de mes premiers billets en cliquant sur le lien ci-dessous:    
+[Tuto pour l'installation de rockbox et utilisation du Sandisk Sansa Clip Plus](https://blindhelp.github.io/rockboxfr/Tuto-pour-l'installation-de-rockbox-et-utilisation-du-Sandisk-Sansa-Clip-Plus/)    
 
-![sansa clip plus rockbox](https://blindhelp.github.io/rockboxfr/sansa_clip_plus_rockbox.jpg "Sansa Clip Plus Rockbox")
+[Retour au sommaire](#Sommaire)
 
-
-# Détails techniques
-
-> * Super compact et super léger, le lecteur MP3 Radio FM Sansa Clip+ de la firme Sandisk fait le plein de musique à moindre frais! Son de qualité et écran lumineux sont au menu du Sansa Clip+ pour profiter de vos fichiers audio dans les meilleures conditions.    
-> * Son interface vous permet de naviguer simplement dans sa mémoire de 8 Go à la recherche de vos morceaux préférés par titre, album ou artiste.    
-> * Le lecteur Sansa Clip+ stocke ainsi jusqu'à 2000 fichiers MP3 et 4000 fichiers WMA, étant par ailleurs compatible avec les formats secure WMA, Audible, Ogg Vorbis et FLAC.    
-> * Il lit également les audiobooks et les podcasts.    
-
-# Caractéristiques détaillées
-
-## Capacité de stockage disponible
-
-> * 8 Go    
-
-## Type de cartes supportées
-
-> * microSD, microSDHC    
-
-## Technologie de l'écran
-
-> * OLED    
-
-## Résolution écran / Couleurs
-
-> * NC pixels / Monochrome    
-
-## Taille de l'écran (diagonale)
-
-> * 2,54 cm    
-
-## ENTRÉES & SORTIES
-
-> * Interface PC: USB 2.0    
-> * Casque connection: 3,5 mm    
-
-## ALIMENTATION
-
-> * Type d'alimentation: Lithium Ion    
-
-## DIMENSIONS
-
-> * Largeur: 3,47 cm    
-> * Hauteur: 1,53 cm    
-> * Epaisseur: 5,5 cm    
-> * Poids: 24 g    
-
-## Garantie du fabricant
-
-> * Détails des services et de la maintenance: Garantie Fabricant: 1 an    
-
-
-  [Retour au sommaire](#Sommaire)
-  
 # 2.- Découverte du Sansa Clip Plus et premier pas.<a id="mark2"></a>
 
 Une fois fait le déballage du lecteur Sansa Clip Plus qui vient dans une boîte digne d'un coffre-fort de la CIA, pour reprendre les termes de mon ami Sof,  nous avons le lecteur en soi, le cable USB2.0, les écouteurs et un Guide de mise en route rapide (Quick Start Guide) Version papier.    
@@ -251,10 +270,10 @@ Il faut téléchargez les fichiers suivants pour notre lecteur Sansa Clip Plus p
 
 1. L'utilitaire Rockbox utility    
 Pour installer Rockbox sur notre Sansa Clip Plus, nous allons avoir besoin de RockboxUtility, un petit programme qui va configurer comme un grand le sansa clip plus!    
-Lors de l'écriture de cet article la dernière  version en date de l'utilitaire Rockbox était la 1.4.1 sortie le 15.11.2019 pour la plate-forme Windows (7 / 8 / 10)    
-Mais le firmware Rockbox comporte comme numéro de version: 3.15    
+Lors de l'écriture de cet article la dernière  version en date de l'utilitaire Rockbox était la 1.5.1 sortie le 01.04.2015 pour la plate-forme Windows (7 / 8 / 10)    
+Mais le firmware Rockbox comporte comme numéro de version: 4.0    
 Ci-dessous Je vous donne le dernier lien de téléchargement de RockboxUtility trouvé sur cette page,  disponible sous Windows:    
-[https://download.rockbox.org/rbutil/win32/RockboxUtility-v1.4.1.zip](http://download.rockbox.org/rbutil/win32/RockboxUtility-v1.4.1.zip)    
+[https://download.rockbox.org/rbutil/win32/RockboxUtility-v1.5.1.zip](http://download.rockbox.org/rbutil/win32/RockboxUtility-v1.5.1.zip)    
 Il est disponible aussi sous Linux et Mac, voir sur [cette page en anglais)](https://www.rockbox.org/wiki/RockboxUtility)    
 Mais il est mis à jour de temps en temps donc à vous de vérifier occasionnellement si une nouvelle version corrigeant des bugs, apportant de nouvelles fonctionnalités ou prenant en charge de nouveaux modèles, n'est pas sortie.    
 Une fois décompresser vous devez trouver le fichier nommé :    
@@ -266,7 +285,7 @@ Téléchargez le Micrologiciel Clip+ (toutes régions via l'espace RockboxFR:
 Ou via le lien directe du constructeur SanDisk ci-dessous:    
 Micrologiciel Clip+ (toutes régions) - Télécharger le micrologiciel    
 [https://downloads.sandisk.com/firmware/clipplus/clipplus01.02.18.zip](https://downloads.sandisk.com/firmware/clipplus/clipplus01.02.18.zip)    
-Une fois décompresser vous devez trouver le fichier nommé :    
+Une fois ddécompresser vous devez trouver le fichier nommé :    
 `clppa.bin`    
 
 # [Étapes pour mettre à jour le micrologiciel des lecteurs MP3 Sansa Clip Sport, Clip Zip, Clip et Clip+ | SanDisk](https://support-fr.sandisk.com/app/answers/detailweb/a_id/38643]
@@ -363,6 +382,9 @@ et collez le à la racine du lecteur. Déconnectez le lecteur et patientez : la 
 [Retour au sommaire](#Sommaire)
 
 # 7.- Installation du firmware Rockbox sur notre Sansa Clip Plus<a id="mark7"></a>
+
+# Installation du firmware Rockbox pour un Sansa Clip Plus en utilisant RockboxUtility.
+
 Voilà on installe Rockbox donc!!!    
 Environ 10 minutes chrono!    
 
@@ -379,9 +401,73 @@ Et va donner un message: erreur de configuration.
 1.- Tout d'abord  on fait l'installation du firmware Rockbox à l'aide de l'utilitaire nommé :    
 `RockboxUtility.exe`    
 Validez sur le fichier, l'utilitaire Rockbox se lance!    
-Celui-ci contiendra le firmware Rockbox pour les baladeurs compatibles.    
+
+# Avertissement
+
+Le fichier RockboxUtility-v1.5.1.zip ou plus, une fois extrait, contiendra son exécutable appelé RockboxUtility.exe, qui sera déclaré faux positif par votre antivirus lors de son exécution pour la première fois !    
+
+Cela se produit avec l'antivirus Windows Defender par exemple.    
+
+Comment autoriser l’antivirus Windows Defender à exécuter le programme quand même ?    
+
+Pour permettre au programme de s'exécuter quand même avec Windows Defender, il faut cliquer sur "Informations complémentaires". Un bouton "Exécuter quand même" apparaît alors, il suffit de cliquer dessus pour lancer l'exécution du programme sur Windows.    
+
+Cela doit être fait chaque fois que le nouveau fichier exécutable RockboxUtility.exe est placé dans le dossier RockboxInstall comme indiqué ci-dessus.    
+
+Notez que ce fichier rockboxutility-v1.5.1.zip contiendra également deux fichiers exécutables appelés    ::
+`ipodpatcher.exe`    
+Valable pour les lecteurs de marque Apple:    
+iPod 1g/2g, iPod 3g, iPod 4g, iPod Color, iPod Mini 1g, iPod Mini 2g, iPod Nano 1g, iPod Video, iPod Nano 2g    
+`sansapatcher.exe`    
+Valable pour les lecteurs de marque Sandisk:    
+Sansa C200 et E200    
+Sans oublier que ce même fichier contiendra le firmware Rockbox pour les baladeurs compatibles appelé:    
+`RockboxUtility.exe`    
 Donc une fois valider sur celui-ci, se déplacer avec des commandes clavier normales, comme "Tabulation" et "Majuscule+Tabulation" pour se déplacer entre les contrôles:    
-Au  premier lancement vous aurez une fenêtre: "Historique des modifications", ", utilisez les Flèches Haut ou Bas pour lire le texte.    
+Au  premier lancement vous aurez une fenêtre avec un texte en anglais en lecture seule: "Historique des modifications", ", utilisez les Flèches Haut ou Bas pour lire le texte.    
+
+``
+Historique des modifications dialogue
+Rockbox Utility 1.4
+Rework player detection functionality to provide better results.
+Limit mountpoints ("Select your device in the filesystem") in configuration dialog to usable ones.
+Change encoder volume configuration to allow more sensible values.
+Save proxy password differently in configuration file (better solution for FS#12166).
+Add support for building Rockbox Utility with Qt5.
+Add support for extracting Original Firmware files compressed with CAB (G#418).
+Add support for Creative Zen X-Fi3 (G#419).
+Add Changelog window.
+Rework System Trace functionality.
+Add support for Iriver H300 v1.31K firmware.
+Add support for Sandisk Sansa Clip Zip v01.01.21 firmware.
+Fix manual link for Archos Recorder V2.
+Rockbox Utility 1.4.1
+Fix crash on detecting player in MTP mode (FS#12989).
+Extend hint when uninstallation requires reinstalling the Original Firmware.
+Improve update check information dialog.
+Correct USB IDs for Sandisk Sansa c200v2.
+Add support for iPod Classic 6G bootloader.
+Rockbox Utility 1.5.0
+Add support for xDuoo X3, X3ii, X20.
+Add support for AGPTek Rocker.
+Add support for AIGO Eros Q and various clones (AIGO Eros K, AGPTek H3, HIFI Walker H2, Surfans F20)
+Add support for showing "retired" target status.
+Update Iriver H100 / H300 series bootloader.
+Rename Game Files installation to Plugin Data; now installs files for further games (Duke3D, Wolfenstein3D, etc.) as well as other plugins (MIDI patchset)
+Support installing daily builds.
+Move Manual / prerendered voice file installation to main dialog.
+Support installing voice files in other languages than english (available languages depends on build).
+Improved HiDPI support.
+Drop support for Qt4, now requires Qt5.
+Update various external libraries.
+Server Downloads changed to https.
+Rockbox Utility 1.5.1
+Fix bootloader installation for Ipods.
+Fix bootloader installation for Sandisk players.
+Improve responsiveness on install / uninstall.
+Enable Themes installation if themes are selected.
+``
+
 `Montrer au démarrage`    
 case à cocher (non cochée).    
 Appuyez sur le bouton "OK".    
@@ -410,21 +496,40 @@ Pour annuler celle-ci.
 Cliquez sur OK. Arrive alors la quatrième  fenêtre principal d'installation, je vous conseille de cocher au moins les suivantes cases à cocher:    
 `Choix des options de configuration de Rockbox`    
 `Utilitaire Rockbox fenêtre`    
-`Rockbox à installer liste déroulante Version stable (Version 3.15)`    
+`Rockbox à installer liste déroulante Version stable (Version 4.0)`    
 Note:    
 Choisissez la version de Rockbox à installer entre Version stable (release) et Version de développement (build). Normalement je devrais conseiller la Version stable pour le grand public car comme son nom l'indique, elle garantit une stabilité contrairement aux versions de développement. Cela dit, en réalité mon expérience montre que les versions de développement sont tout aussi stables le plus souvent, elles corrigent même parfois des bugs présents dans la version stable. Et bien entendu, elles améliorent ou ajoutent également des fonctionnalités. Je serais presque donc tenté de conseiller les versions de développement pour tout le monde, mais le choix final vous revient bien évidemment. ;-)    
 `Composants de Rockbox à installer groupe`    
 `Bootloader case à cocher coché`    
+Le bootloader est nécessaire pour démarrer Rockbox. Son installation n'est nécessaire que lors de la première installation.    
 `Rockbox case à cocher coché`    
 `Polices case à cocher coché`    
 `Thèmes case à cocher non coché`    
+Les thèmes permettent de modifier l'interface utilisateur de Rockbox. Utilisez "Personnaliser" pour sélectionner les thèmes.    
 Utile sauf si vous avez un residue visuel.    
 Si vous souhaitez avoir des thèmes particuliers, choisissez les en cliquant sur le bouton Personnaliser afin d'installer.    
-`Personnaliser bouton`    
-Vous pouvez télécharger via Rockbox.org (page en anglais) deux thèmes qu'on m'a dit qu'ils sont très sympas, [Classic](https://themes.rockbox.org/index.php?themeid=1035&target=sansaclipplus) et [Equilibrium.](https://themes.rockbox.org/index.php?themeid=1534&target=sansaclipplus) Après c'est une question de goût!    
+Personnaliser bouton`    
+Vous pouvez télécharger via Rockbox.org (page en anglais) deux thèmes qu'on m'a dit qu'ils sont très sympas, [Classic](http://themes.rockbox.org/index.php?themeid=1035&target=sansaclipplus) et [Equilibrium.](http://themes.rockbox.org/index.php?themeid=1534&target=sansaclipplus) Après c'est une question de goût!    
+Reportez-vous à la section :    
+[26.2.- Installation manuelle des thèmes pour notre lecteur Sansa Clip Plus.](#mark26-2)    
 Attention, le pack de polices est indispensable au bon fonctionnement de certains thèmes donc il est préférable de l'installer d'emblée dans tous les cas, même si vous n'installez pas tout de suite de thèmes, pour être tranquille par la suite.    
-`Fichiers de jeux case à cocher non coché`    
-Si vous êtes intéressés par Doom (oui, oui!), cochez la case Fichiers de jeux. Je ne l'ai pas essayé, mais on parle en bien.    
+`Plugin Data case à cocher coché`    
+PS: Renommer l'élément précédent appelé: `Game Files installation` (Installation Fichiers de jeux) en `Plugin Data`    
+Si vous êtes intéressés par Doom (oui, oui!), laissez la case coché    
+Je ne l'ai pas essayé, mais on parle en bien.    
+`Manuel case à cocher non coché Alt+ M`    
+C'est une case à cocher qui, une fois cochée, affiche une liste déroulante qui vous permet de sélectionner quel type de manuel vous devez utiliser pour votre lecteur.    
+Vous pouvez choisir Parmi l'un des éléments suivants :    
+PDF
+HTML (zip
+HTML
+Une fois que vous avez fini de faire votre choix, appuyez sur Tab.    
+`Voice File case à cocher non coché Alt+ V`    
+C'est une case à cocher qui, une fois cochée, affiche une liste déroulante qui vous permet de sélectionner le fichier de voix pour le firmware Rockbox.    
+Dans notre cas, nous choisirons l'élément "Francais"sur cette liste.    
+Une fois que vous avez fini de faire votre choix, appuyez sur Tab.    
+PS: Pendant l'installation, téléchargera et installera Le contenu du fichier appelé:    
+`voice-sansaclipplus-4.0-francais.zip`    
 `Installer bouton`    
 Quand vous êtes prêt, cliquez sur Installer, RockboxUtility va alors vous demander de lui fournir le fichier clppa.bin (téléchargeable sur [le site de Sandisk](http://kb.sandisk.com/app/answers/detail/a_id/300) ou [ici)](https://blindhelp.github.io/rockboxfr/clipplus01.02.18.zip)    
 et va alors commencer le déploiement de Rockbox sur votre Sansa Clip+    
@@ -443,6 +548,7 @@ Pour les curieux, Rockbox Utility va à ce moment "patcher" le fichier firmware,
 `clppa.bin`    
 Appuyez sur la touche Entrée sur ce fichier ou cliquez sur le bouton:    
 `Ouvrir bouton`    
+Note: Le bootloader est nécessaire pour démarrer Rockbox. Son installation n'est nécessaire que lors de la première installation.    
 Laissez maintenant Rockbox Utility tout installer automatiquement.    
 L'installation commence et devrait annoncer toute une suite de chiffres indiquant qu'il travaille. Vous pouvez utiliser la touche de tabulation ou les flèches dans ce dialogue pour essayer de connaître les différentes étapes du processus;    
 `Utilitaire Rockbox fenêtre`    
@@ -464,42 +570,224 @@ Etc, etc, etc...
 `Création du journal d'installation`    
 `Le journal d'installation a été crée`    
 Au bout de quelques instants, RockboxUtility arrive à l'étape "installation de Rockbox".    
-`Téléchargement du fichier rockbox-sansaclipplus-3.15.zip`    
+`Téléchargement du fichier rockbox-sansaclipplus-4.0.zip`    
 `Téléchargement terminé.`    
 `Extraction du fichier.`    
 `Création du journal d'installation`    
 `Le paquet a été installé avec succès.`    
 Au bout de quelques instants, RockboxUtility arrive à l'étape "installation de polices".    
-`Téléchargement du fichier rockbox-fonts-3.15.zip`    
+`Téléchargement du fichier rockbox-fonts-4.0.zip`    
+`Téléchargement terminé.`    
+`Extraction du fichier.`    
+`Création du journal d'installation`    
+`Le paquet a été installé avec succès.`    
+`Téléchargement du fichier rockdoom.zip`    
+`Téléchargement terminé.`    
+`Extraction du fichier.`    
+`Création du journal d'installation`    
+`Téléchargement du fichier patchset.zip`    
+`Téléchargement terminé.`    
+`Extraction du fichier.`    
+`Création du journal d'installation`    
+`Le paquet a été installé avec succès.`    
+`Téléchargement du fichier voice-sansaclipplus-4.0-francais.zip`    
+`Téléchargement terminé.`    
+`Extraction du fichier.`    
+`Création du journal d'installation`    
+`Le paquet a été installé avec succès.`    
+`Téléchargement du fichier rockbox-sansaclipplus-4.0-html.zip`    
 `Téléchargement terminé.`    
 `Extraction du fichier.`    
 `Création du journal d'installation`    
 `Le paquet a été installé avec succès.`    
 Au bout de quelques instants, RockboxUtility arrive à l'étape "installation de thèmes". Ces thèmes n'étant utiles que pour ceux qui ont un restant visuel.    
-`Aucun thème sélectionné, étape ignorée`    
-Vous pouvez ignorer ceci en choisissant le bouton "Annuler".    
-Quand tout est installé, cliquez sur le bouton OK dans le cas où vous avez installé des  thèmes.    
-Dans les deux cas de figure, vérifiez que Rockbox Utility a bien ajouté le fichier `*.bin` à la racine de votre baladeur.    
-PS: si vous ne voyez pas certains dossiers ou fichiers sur votre baladeur, c'est probablement parce que vous n'avez pas activé l'affichage des dossiers et fichiers cachés dans l'explorateur Windows.    
+PS:    
+Vérifiez que Rockbox Utility a bien ajouté le fichier `*.bin` à la racine de votre baladeur.    
+si vous ne voyez pas certains dossiers ou fichiers sur votre baladeur, c'est probablement parce que vous n'avez pas activé l'affichage des dossiers et fichiers cachés dans l'explorateur Windows.    
 Par exemple, ".rockbox" est un répertoire caché.    
 Pour cela cliquez sur "Affichage", puis "Afficher les fichier cachés".    
 Et fermer à ce moment l'assistant de Rockbox utility, via le menu Fichier Alt+F, et chercher puis appuyer sur l'élément: Quitter Ctrl+Q.    
 
+Notez que tous les paramètres que nous avons cochés ou décochés dans l'onglet `Installation Bienvenue Alt+ I` ils restent sauvegardés jusqu'au prochain démarrage de  l'Utilitaire Rockbox jusqu'à ce que vous les modifiez à nouveau.    
+
+Lorsque le curseur est situé sur le nom de l'un de ces onglets, appuyez sur contrôle+tab pour vous déplacer entre les onglets de l'Utilitaire Rockbox. Les onglets sont :    
+
+`Installation Bienvenue Alt+ I`    
+`Accessibilité Installer des add-ons pour l'accessibilité Alt+ A`    
+`Sauvegarde & Désinstallation Désinstaller Rockbox Alt+ D`    
+`Info Alt+ o`    
+
+Dans chacun de ces onglets, nous trouverons le bouton appelé:    
+`Ejecter bouton Alt+ E`    
+L'appui sur ce bouton éjectera votre lecteur `SanDisk Sansa Clip+` de votre Système d'exploitation (Windows 11 pro, par exemple)    
+
+Le dialogue `Périphérique éjecté` apparaît accompagné d'un message vous indiquant que cela a réussi:    
+`Périphérique éjecté avec succès. Vous pouvez maintenant déconnecter le lecteur du PC.`    
+`OK bouton`
+Appuyez sur OK pour fermer ce dialogue.    
+
+Vous pouvez aussi installer le firmware Rockbox depuis l'élément `Installation` depuis le menu:    
+`Actions réduit Alt+ s`    
+Si nous cliquons ici, L'élément sera annoncé comme :    
+`Actions développé Alt+ s`    
+`Installation Alt+ I`    	
+Appuyez sur cet élément pour ouvrir le dialogue d'installation de l'Utilitaire Rockbox, le processus d'installation commencera comme je l'ai expliqué ci-dessus.    
+
+# Menu de l'interface de l'Utilitaire Rockbox.
+
+Lorsque le menu apparaît, vous pouvez utiliser les touches fléchées pour naviguer dans le menu et la touche entrée pour activer un élément.
+
+Le premier menu:    
+`Fichier réduit Alt+ F`    
+Si nous cliquons sur ce raccourci, il sera annoncé comme suit avec les éléments suivants:    
+`Fichier développé`    
+`Configuration Alt+ C`    
+`Quitter Ctrl+ Q`    
+Le deuxième menu:    
+`Actions réduit Alt+ s`    
+Si nous cliquons sur ce raccourci, il sera annoncé comme suit avec les éléments suivants:    
+`Actions développé Alt+ s`    
+`Installation Alt+ I`    	
+`Accessibilité réduit Alt+ A`    
+Créer les fichiers d'annonce Alt+ a
+Ceux-ci sont nécessaires pour que Rockbox énonce les noms des fichiers et des dossiers    
+Créer le fichier de voix Alt+ C
+Celui-ci est requis pour que Rockbox parle. La synthèse vocale est activée par défaut, donc si vous installez le fichier de voix , Rockbox parlera    
+`Désinstallation réduit Alt+ D`    
+`Désinstaller Rockbox Alt+ R`    
+Le troisième menu:    
+`Aide réduit Alt+ A`    
+Si nous cliquons sur ce raccourci, il sera annoncé comme suit avec les éléments suivants:    
+`Aide développé Alt+ A`    
+`A propos Alt+ A`    
+`A propos de Qt Alt+ Q`    
+`Montrer l'historique des modifications Alt+ h`    
+`Informations système Alt+ s`    
+`Trace système Alt+ T`    
+`Aide Alt+ A`    
+
+# Installation manuelle du firmware Rockbox pour le lecteur SANDISK Sansa Clip Plus.
+
+L'utilisation de [RockboxUtility](https://www.rockbox.org/wiki/RockboxUtility.html) est le moyen le plus simple d'installer Rockbox. Cependant, vous pouvez également le télécharger et l'installer manuellement sur le lecteur SANDISK Sansa Clip Plus.    
+
+Je présume ici que vous avez déjà fait les    
+[Étapes pour mettre à jour le micrologiciel des lecteurs MP3 Sansa Clip Sport, Clip Zip, Clip et Clip+ | SanDisk](https://support-fr.sandisk.com/app/answers/detailweb/a_id/38643)    
+comme déjà évoqué  presque au début de ce post à l'aide de l'Utilitaire Rockbox pour le lecteur SANDISK Sansa Clip Plus.    
+
+La méthode d'installation manuelle est toujours à votre disposition, si vous avez besoin ou le désirez en suivant les instructions ci-dessous.    
+
+Remarque: Le lien suivant est pour télécharger la dernière version de Rockbox 4.0 puis ensuite  extraire les fichiers manuellement dans ce lecteur sans utiliser le[RockboxUtility](https://www.rockbox.org/wiki/RockboxUtility.html)    
+
+Vous pouvez télécharger le firmware Rockbox 4.0 en cliquant sur le lien suivant:    
+[Firmware](https://download.rockbox.org/release/4.0/rockbox-sansaclipplus-4.0.zip)    
+Nom de fichier:    
+`rockbox-sansaclipplus-4.0.zip`    
+Une fois ce fichier extrait à la racine du lecteur celui-ci contiendra le dossier:    
+`.rockbox`    
+Ce dossier contiendra les éléments liés à notre firmware Rockbox 4.0 pour notre lecteur SanDisk Sansa Clip+.    
+
 [Retour au sommaire](#Sommaire)
- 
+
 # 8.- Installation de la voix en français pour un Sansa Clip Plus.<a id="mark8"></a>
 
-Si vous souhaitez utiliser le support de voix, vous aurez également besoin d'un fichier de voix. Les fichiers de voix (.voice) permettent à Rockbox de verbaliser l'interface utilisateur pour vous. RockboxUtility peut installer un fichier de voix en anglais (en-us), ou vous pouvez le télécharger à partir de [cette page (en anglais)](https://www.rockbox.org/daily.shtml)    
-Une fois ouvert cette page, chercher le mot:    
-`sansaclipplus`    
-Vous trouverez ici des liens pour télécharger la dernière version de Rockbox, les différents fichiers de voix des principales langues supportées par Rockbox et le manuel en anglais, tous ceux-ci sont des  "Daily builds", c'est-à-dire des constructions quotidienne pour le lecteur Sansa Clip Plus.    
-Mais je vous donne ci-dessous les liens de téléchargement des fichier de voix pour le français et l'anglais (États-Unis) pour Rockbox version 3.15 compatible avec le lecteur Sansa Clip Plus, mais avant tout la procédure d'installation manuelle.
+Si vous souhaitez utiliser le support de voix, vous aurez également besoin d'un fichier de voix. Les fichiers de voix (.voice) permettent à Rockbox de verbaliser l'interface utilisateur pour vous. RockboxUtility peut installer un fichier de voix pour votre langue pour Rockbox version 4.0 compatible avec le lecteur Sansa Clip Plus.    
+
+Ce fichier de voix est utile non seulement pour les personnes aveugles ou malvoyantes, mais pour n'importe qui lorsque l'écran ne peut pas être vu (en conduisant, lorsque le lecteur est à l'intérieur de votre poche, etc.    
+
+# Installation de la voix en français pour un Sansa Clip Plus en utilisant RockboxUtility.
+
+Lorsque vous êtes sur l'onglet `Installation Bienvenue Alt+ I`    
+Si vous exécutez à partir de RockboxUtility, la première fois vous verrez cet élément appelé :    
+`Voice File case à cocher non coché Alt+ V`    
+C'est une case à cocher qui, une fois cochée, affiche une liste déroulante qui vous permet de sélectionner le fichier de voix pour le firmware Rockbox.    
+Dans notre cas, nous choisirons l'élément "Francais"sur cette liste.    
+Une fois que vous avez fini de faire votre choix, appuyez sur Tab, puis appuyez sur :    
+`Installer bouton Alt+ I`    
+PS: Pendant l'installation, téléchargera et installera Le contenu du fichier appelé:    
+`voice-sansaclipplus-4.0-francais.zip`    
+
+Note:    
+Répétez cette même opération mentionnée ci-dessus si vous souhaitez installer d'autres langues, en choisissant sur la liste, par exemple:    
+``
+Composants de Rockbox à installer English (UK)
+Composants de Rockbox à installer English (US)
+Composants de Rockbox à installer Espanol
+Composants de Rockbox à installer Francais
+``
+
+# Installation manuelle de la voix en français pour un Sansa Clip Plus.
+
+Ci-dessous, nous trouverons un ensemble de liens pour télécharger les voix pour ce lecteur:    
+Je ne mettrai ici que les voix qui peuvent être utiles pour nous:    
+
+[Voice (en-gb)](https://download.rockbox.org/release/4.0/voice-sansaclipplus-4.0-english.zip)    
+Nom de fichier:    
+`voice-sansaclipplus-4.0-english.zip`    
+Une fois ce fichier extrait contiendra le dossier:    
+`.rockbox`    
+puis le sous-dossier:    
+`langs`    
+Qui contient les fichiers suivants:    
+`english.lng.talk`    
+`english.voice`    
+`InvalidVoice_english.talk`    
+
+[Voice (en-us)](https://download.rockbox.org/release/4.0/voice-sansaclipplus-4.0-english-us.zip)    
+Nom de fichier:    
+`voice-sansaclipplus-4.0-english-us.zip`    
+Une fois ce fichier extrait contiendra le dossier:    
+`.rockbox`    
+puis le sous-dossier:    
+`langs`    
+Qui contient les fichiers suivants:    
+`english-us.lng.talk`    
+`english-us.voice`    
+`InvalidVoice_english-us.talk`    
+
+[Voice (es-es)](https://download.rockbox.org/release/4.0/voice-sansaclipplus-4.0-espanol.zip)    
+Nom de fichier:    
+`voice-sansaclipplus-4.0-espanol.zip`    
+Une fois ce fichier extrait contiendra le dossier:    
+`.rockbox`    
+puis le sous-dossier:    
+`langs`    
+Qui contient les fichiers suivants:    
+`espanol.lng.talk`    
+`espanol.voice`    
+`InvalidVoice_espanol.talk`    
+
+[Voice (es-mx)](https://download.rockbox.org/release/4.0/voice-sansaclipplus-4.0-espanol-mx.zip)    
+Nom de fichier:    
+`voice-sansaclipplus-4.0-espanol-mx.zip`    
+Une fois ce fichier extrait contiendra le dossier:    
+`.rockbox`    
+puis le sous-dossier:    
+`langs`    
+Qui contient les fichiers suivants:    
+`espanol.lng.talk`    
+`espanol.voice`    
+`InvalidVoice_espanol.talk`    
+
+Dans ce cas, vous devrez choisir si vous voulez avoir l'espagnol avec l'accent traditionnel ou avec l'accent mexicain.    
+Nous ne pouvons pas avoir les deux voix car c'est le même nom de fichier pour les deux langues.    
+
+[Voice (fr)](https://download.rockbox.org/release/4.0/voice-sansaclipplus-4.0-francais.zip)    
+Nom de fichier:    
+`voice-sansaclipplus-4.0-francais.zip`    
+Une fois ce fichier extrait contiendra le dossier:    
+`.rockbox`    
+puis le sous-dossier:    
+`langs`    
+Qui contient les fichiers suivants:    
+`francais.lng.talk`    
+`francais.voice`    
+`InvalidVoice_francais.talk`    
 
 1.- Pour faire la vocalisation, il faudra aller donc dans poste de travail et entrer dans votre lecteur Sansa Clip Plus    
 Dans mon cas celui-ci est nommé par :    
 SANSA CLIPP suivi d'une lettre.    
-2.- vous pouvez télécharger le fichier pour la langue en français nommé :    
-[sansaclipplus-20200827-francais.zip](https://blindhelp.github.io/rockboxfr/sansaclipplus-20200827-francais.zip)    
+2.- Recherchez le fichier contenant la langue en français que vous veniez de téléchargé nommé :    
+`voice-sansaclipplus-4.0-francais.zip`    
 3.- Une fois décompresser vous devez trouver le fichier nommé :    
 `francais.voice`    
 4.- Faire un copier du fichier pour la langue en français nommé :    
@@ -509,37 +797,279 @@ SANSA CLIPP suivi d'une lettre.
 ici on colle le fichier nommé:    
 `francais.voice`    
 
-# Installation de la voix en anglais pour un Sansa Clip Plus
-
-1.- Si vous voulez avoir la langue en Anglais (États-Unis), vous pouvez télécharger le fichier nommé :    
-[sansaclipplus-3.15-english.zip](https://blindhelp.github.io/rockboxfr/sansaclipplus-3.15-english.zip)    
-2.- Une fois décompresser vous devez trouver le fichier nommé :    
-`english.voice`    
-3.- Faire un copier du fichier pour la langue en anglais nommé :    
-`english.voice`    
-4.- Une fois validez sur notre lecteur Sansa Clip Plus, il faut aller dans le dossier nommé:    
-.rockbox, faire entrée puis choisissez le dossier langs, et faire entrée    
-ici on colle le fichier nommé:    
-`english.voice`    
-
 Note :    
-S'est  possible de créer un fichier .voice et faire la Création des fichiers d'annonce  à l'aide de RockboxUtility.    
-
-Remarque Importante!    
-Pour ma part je n'est pas pu arriver  à créer un nouveau fichier .voice et faire la Création des fichiers d'annonce  à l'aide de Rockbox Utility sous W7 ni W10!    
-Affaire à suivre pour les pro du blogh de RockboxFR!    
-Si solution mille merci par avance de le signaler!    
+Répétez cette même procédure pour toutes Les autres langues que vous souhaitez installer manuellement dans votre lecteur Sansa Clip Plus.
 
 [Retour au sommaire](#Sommaire)
 
-# 9.- Configuration de la langue en français pour un lecteur Sansa Clip Plus.<a id="mark9"></a>
+# 8.1.- Créer les fichiers d'annonce  en français pour un Sansa Clip Plus.<a id="mark8-1"></a>
 
-Voici la procèdure pour la configuration du Sansa Clip Plus en francais.    
-Notre ami Sof nous dit :    
+Les fichiers avec l'extention .talk que la voix nous va lire il doive être créer au préalable par l'utilisateur, car notre lecteur ne dispose pas un moteur de voix installer!!!    
+Donc, si nous voulons que un déterminé dossier soit plutot verbaliser comme un mot que épeler, il faut que les fichiers .talk soit générer depuis le PC.    
+Tout cela sa ce fait grace a l'utilitaire nommé:    
+Rockbox utility, le même utiliser pour installer notre firmware Rockbox pour notre lecteur Sansa Clip Plus!.    
 
->Par défaut, Rockbox démarre en anglais. Pour que l'affichage et la vocalisation se fasse automatiquement en français, je vous propose d'installer un fichier de paramètres préconfiguré pour le Sansa Clip Plus.    
+L'utilitaire  génère  un fichier nommé:    
+_dirname.talk.    
+Celui-ci va faire en sorte que notre dossier soi lù correctement.    
+Il ne doit pas être supprimer!!!    
+Aussi on peut générer  des fichiers .Talk pour nos fichiers.     
+L'utilitaire Rockbox utility va générer un fichier nommé par exemple:    
+`coco.mp3.talk`    
+qui va être dans le dossier ou se trouve le fichier nommé par exemple:    
+`coco.mp3`    
+Remarque: Le fichier .talk il ne doit pas être supprimer!    
+Dans le cas contraire le fichier coco.mp3 va être à nouveau épeler!!!    
+N'oubliez pas que pour créer les voix, il faut avoir installer des voix sapi5 sur votre PC afin que l'utilitaire Rockbox utility fonctione correctement!!     
 
-Je vous donne ci-dessous le lien de téléchargement, ce fichier de paramètres préconfiguré pour la langue  en français pour le Sansa Clip Plus inclut un autre changement fait par mes soins autres que ceux proposées à la base par Sof, en utilisant la version de Rockbox 3.15.    
+Ce document en anglais via Rockbox.org couvre les différentes capacités annoncés ci-dessus   pour l'option Interface vocal, vous pouvez le consulter en cliquant sur le lien ci-dessous:    
+[VoiceHowto](https://www.rockbox.org/wiki/VoiceHowto)    
+Une fois ouverte la page voir la section "Voiced names for directories and files" laquelle  je trouve qu'elle est pertinente et je pense que cela peut vous aider   pour une meilleure configuration phonétique des noms des répertoires et fichiers dans l'option Interface vocal.    
+
+Ensuite la configuration de la voix SAPI 5se fait en utilisant RockboxUtility allant à l'onglet appelé:    
+`Accessibilité Installer des add-ons pour l'accessibilité Alt+ A`    
+puis en appuyant sur l'élément:    
+`Créer des fichiers de voix bouton`    
+
+ou en allant sur le menu :    
+`Accessibilité réduit Alt+ A`    
+Créer les fichiers d'annonce Alt+ a
+Ceux-ci sont nécessaires pour que Rockbox énonce les noms des fichiers et des dossiers    
+
+Dans les deux cas de figure, vous devez appuyer sur l'élément :    
+`Modifier bouton Enter`    
+
+Une boîte de dialogue apparaît.    
+
+Vous devez choisir un moteur TTS dans la liste déroulante.    
+Sélectionnez avec la flèche bas:    
+`Moteur TTS SAPI5`    
+
+Vous devez appuyer sur l'élément :    
+`Configurer le moteur TTS  bouton Enter`    
+
+Une boîte de dialogue apparaît.    
+`Moteur TTS SAPI5 dialogue`    
+Ici, vous devrez choisir la configuration appropriée, par exemple:    
+`Langue: liste déroulante francais`    
+`Voix: liste déroulante Down`    
+`Rafraîchir bouton Enter`    
+Appuyez sur Ce bouton pour rafraîchir la liste des voix SAPI5 installées sur votre système, nom de la voix SAPI5 à titre d'exemple:    
+Voix: liste déroulante Microsoft Antoine Online Down
+`Vitesse: bouton rotatif 0`    
+J'ai laissé cette valeur par défaut.    
+`Options: édition vide`    
+Laissez-les par défaut.    
+Je n'ai rien écrit dans ce champ d'édition, j'ignore Que puis-je mettre ici !    
+`Ok bouton Enter`    
+Appuyez sur ce bouton pour valider vos modifications.    
+`Annuler bouton Enter`    
+Appuyez sur Ce bouton pour annuler les modifications de cette configuration.    
+
+En appuyant sur le bouton Ok/Annuler, vous serez dans l'élément précédent appelé:    
+`TTS & Encodeur onglet`    
+Si vous souhaitez tester la voix de ce moteurTTS SAPI5, vous devez appuyer sur l'élément :    
+`Tester le moteur bouton Enter`    
+Un texte sera entendu avec cette voix.    
+Si cette voix SAPI5 vous convient, temps mieux, sinon, vous devrez la reconfigurer à nouveau comme expliqué ci-dessus.    
+Lorsque vous êtes sur cet élément:    
+`TTS & Encodeur onglet Alt+ T`    
+
+Ici, vous trouverez la case à cocher:     
+`Utiliser la correction des phrases pour TTS case à cocher coché Alt+ U`    
+(valeur par défaut).    
+`Moteur d'encodage groupe`    
+Ci-dessous, vous trouverez l'élément appelé:    
+`Configurer l'encodage bouton Enter`    
+Je n'ai rien modifié ici, je l'ai laissé tel quel.    
+PS:    
+Si vous appuyez sur ce bouton une boîte de dialogue apparaît:    
+`Rockbox Speex Encoder dialogue`    
+`Utilitaire Rockbox`    
+Ensuite, viennent les options suivantes (affiché sur ce dialogue par défaut):    
+``
+Volume: bouton rotatif 1,00
+Qualité: bouton rotatif 8,00
+Complexité: bouton rotatif 10
+Utiliser le bas débit: case à cocher non coché
+Ok bouton Enter
+Annuler bouton Enter
+``
+
+Pour ma part, je n'ai rien modifié dans cette boîte de dialogue, je l'ai laissé tel quel.    
+En appuyant sur le bouton Ok/Annuler, vous serez dans la fenêtre précédente appelé:    
+`TTS & Encodeur onglet Alt+ T`    
+
+Lorsque vous êtes sur l'élément précédent appelé:    
+`TTS & Encodeur onglet Alt+ T`    
+vous trouverez les deux derniers éléments appelés:    
+`OK bouton Enter`    
+`Annuler bouton Enter`    
+En appuyant sur le bouton Ok/Annuler, vous serez dans la fenêtre précédente appelé:    
+`Utilitaire Rockbox fenêtre`    
+
+Note:    
+Auparavant, si la voix SAPI5 a été bien configurée, un message apparaîtra dans cette boîte de dialogue:    
+`Configuration dialogue`    
+`Configuration de l'utilitaire Rockbox`    
+`Configurer le moteur TTS`    
+`La configuration est correcte`    
+`Moteur d'encodageRockbox`    
+`Speex`    
+`Encoder`    
+
+Si quelque chose a été mal configuré, un avertissement comme quoi la configuration n'est pas valide sera affichée.    
+
+Lorsque vous êtes de retour sur l'élément appelé:    
+`Utilitaire Rockbox fenêtre`    
+`Options de génération groupe`    
+`Modifier bouton Enter`    
+Si vous vous souvenez bien, c'était le premier bouton que nous avons trouvé dans cette fenêtre pour choisir un moteur TTS dans la liste déroulante une fois cet élément ouvert.    
+Ensuite, vous trouverez plusieurs cases à cocher:    
+Appuyez sur barre d'espace pour modifier l'une de ces options, ou laissez-les par défaut.    
+Mon choix est le suivant:    
+`Générer pour les fichiers case à cocher coché`    
+`Générer pour les dossiers case à cocher coché`    
+`Explorer l'arborescence case à cocher coché`    
+`Ignorer les existants case à cocher non coché`    
+`Suppression des extensions case à cocher coché`    
+`Ignorer les fichiers case à cocher non coché`    
+`Options de génération édition vide`    
+Laissez-les par défaut.    
+Je n'ai rien écrit dans ce champ d'édition, j'ignore Que puis-je mettre ici !    
+`Installer bouton Enter`    
+Appuyez sur cet élément une fois que vous avez choisi vos options et vous en êtes sûr.    
+Si vous n'êtes pas sûr de faire un bon choix avant d'appuyer sur le bouton `Installer` ; appuyez sur l'élément:    
+`Annuler bouton Enter`    
+pour annuler les modifications.    
+
+Dans le cas que vous avez appuyé sur l'élément:    
+`Installer bouton Enter`    
+
+Une boîte de dialogue s'ouvre:    
+`Utilitaire Rockbox fenêtre`    
+`Installation des fichiers de voix dialogue`    
+`Moteur TTS SAPI5`    
+`Sélectionnez les dossiers pour la génération des fichiers de voix (Ctrl pour en sélectionner plusieurs)`    
+Pour le moment, j'ai choisi le dossier:    
+`.rockbox`    
+
+Une fois le dossier ou les dossiers sélectionnés, l'Utilitaire Rockbox continuera avec l'installation.    
+`Avancement dialogue`    
+`Système réduit Espace`    
+`Avancement`    
+`Progression liste `    
+`Progression`    
+`Début de la génération des fichiers de voix pour le dossier .rockbox`    
+`Lecture de la liste des fichiers...`    
+`Démarrage du moteur TTS`    
+`Démarrage du moteur d'encodage`    
+`Synthèse des entrées...`    
+`Encodage des fichiers...`    
+`Copie des fichiers d'annonce...`    
+`Nettoyage...`    
+`Terminé`    
+`Création des fichiers d'annonce terminée`    
+`barre de progression 100%`    
+`OK bouton Alt+ O`    
+Appuyez sur OK pour fermer ce dialogue.    
+
+`Ejecter bouton Alt+ E`    
+L'appui sur ce bouton éjectera votre lecteur `SanDisk Sansa Clip+` de votre Système d'exploitation (Windows 11 pro, par exemple)    
+
+Le dialogue `Périphérique éjecté` apparaît accompagné d'un message vous indiquant que cela a réussi:    
+`Périphérique éjecté avec succès. Vous pouvez maintenant déconnecter le lecteur du PC.`    
+`OK bouton`
+Appuyez sur OK pour fermer ce dialogue.    
+
+[Retour au sommaire](#Sommaire)
+
+# 9.- Les fichiers de configuration .cfg<a id="mark9"></a>
+
+Rockbox permet aux utilisateurs de stocker et de charger plusieurs paramètres via l'utilisation des fichiers de configuration. Un fichier de configuration est simplement un fichier texte avec l'extension .cfg.    
+
+[Retour au sommaire](#Sommaire)
+
+# 9.1.- Spécifications pour les fichiers .cfg<a id="mark9-1"></a>
+
+Le fichier de configuration Rockbox est un fichier texte brut, donc une fois que vous avez utilisé l'option `Sauvegarder configuration actuel` pour créer le fichier, vous pouvez modifier le fichier sur votre ordinateur à l'aide d'un programme d'éditeur de texte.
+
+[Retour au sommaire](#Sommaire)
+
+# 9.2.- Exemple d'un fichier de configuration<a id="mark9-2"></a>
+
+Dans notre premier exemple, ce fichier config.cfg configuré pour le firmware Rockbox 4.0 une fois que vous avez installé/mis manuellement le fichier english.voice suivi d'autres réglages additionnels,  est le suivant:    
+
+<br>
+`# .cfg file created by rockbox 4.0 - http://www.rockbox.org`    
+<br>
+`volume: -10`    
+`talk dir: spell`    
+`talk file: spell`    
+`talk filetype: on`    
+`Announce Battery Level: on`    
+`lang: /.rockbox/langs/english.lng`    
+<br>
+
+Dans notre deuxième exemple, ce fichier config.cfg configuré pour le firmware Rockbox 4.0 une fois que vous avez installé/mis manuellement le fichier francais.voice suivi d'autres réglages additionnels,  est le suivant:    
+
+<br>
+`# .cfg file created by rockbox 4.0 - http://www.rockbox.org`    
+<br>
+`volume: -10`    
+`talk dir: spell`    
+`talk file: spell`    
+`talk filetype: on`    
+`Announce Battery Level: on`    
+`lang: /.rockbox/langs/francais.lng`    
+<br>
+
+[Retour au sommaire](#Sommaire)
+
+# 9.3.- Exemple d'un fichier de configuration incluant l'ajout d'une radio de ma région<a id="mark9-3"></a>
+
+Si je reprends le premier exemple  de notre fichier config.cfg configuré pour le firmware Rockbox 4.0 une fois que vous avez installé/mis manuellement le fichier english.voice suivi d'autres réglages additionnels incluant l'ajout d'une radio de ma région,  est le suivant:    
+
+<br>
+`# .cfg file created by rockbox 4.0 - http://www.rockbox.org`    
+<br>
+`volume: -10`    
+`talk dir: spell`    
+`talk file: spell`    
+`talk filetype: on`    
+`Announce Battery Level: on`    
+`fmr: /.rockbox/fmpresets/Grenoble.fmr`    
+`lang: /.rockbox/langs/english.lng`    
+<br>
+
+Si je reprends le deuxième exemple  de notre fichier config.cfg configuré pour le firmware Rockbox 4.0 une fois que vous avez installé/mis manuellement le fichier francais.voice suivi d'autres réglages additionnels incluant l'ajout d'une radio de ma région,  est le suivant:    
+
+<br>
+`# .cfg file created by rockbox 4.0 - http://www.rockbox.org`    
+<br>
+`volume: -10`    
+`talk dir: spell`    
+`talk file: spell`    
+`talk filetype: on`    
+`Announce Battery Level: on`    
+`fmr: /.rockbox/fmpresets/Grenoble.fmr`    
+`lang: /.rockbox/langs/francais.lng`    
+<br>
+
+Les exemples ci-dessus dans les deux langues sont à titre purement informatif car le réglage du volume et le nom du fichier .fmr utilisé pour la radio peut être changer (y compris le nom du fichier de la langue et d'autres paramètres du lecteur) via l'interface de Rockbox par l'utilisateur.    
+
+[Retour au sommaire](#Sommaire)
+
+# 9.4.- Fichier config.cfg en utilisant Rockbox 4.0 avec la configuration minimale requise configurée pour la langue en français suivi d'autres réglages additionnels incluant l'ajout d'une radio de ma région  pour notre lecteur Sansa Clip Plus](#mark9-4)
+
+Je suppose que vous avez installé / mis le fichier de voix appelé:    
+`francais.voice`    
+Dans le dossier:    
+`.rockbox`    
+Sous-dossier:    
+`langs`    
+
+Remarque :    
 J'ai ajoutée la ligne dans le fichier nommé:    
 `config.cfg`    
 pour avoir les radios de ma région en fm avec le Sansa Clip Plus (si disponibles), et cette ligne est:    
@@ -558,70 +1088,27 @@ Mais ne vous inquiétez pas pour le moment, j' expliquerai le tout dans les sect
 [17.- Programmation des présélections des vos Radio FM.](#mark17)    
 [18.- Sélectionner une présélection.](#mark18)    
 
-Ci-dessous Je vous donne quelques exemples des fichiers `config.cfg` utilisés dans mon Sansa Clip Plus pour avoir une idée lors de mes tests:    
+Voici le contenu du fichier config.cfg en utilisant Rockbox 4.0 avec la configuration minimale requise configurée pour la langue en français suivi d'autres réglages additionnels incluant l'ajout d'une radio de ma région  pour notre lecteur Sansa Clip Plus:    
 
-# Voici le contenu du fichier config.cfg par défaut la première fois que vous lancez Rockbox, une fois que vous avez mis le fichier english.voice:
 <br>
-`# .cfg file created by rockbox 3.15 - http://www.rockbox.org`    
+`# .cfg file created by rockbox 4.0 - http://www.rockbox.org`   
 <br>
-`volume: -2`    
-<br>
-
-# Voici le contenu du fichier config.cfg avec les lignes données par Sof la première fois que vous lancez Rockbox, une fois que vous avez mis le fichier francais.voice:
-<br>
-`# .cfg file created by rockbox 3.7.1 - http://www.rockbox.org`    
-<br>
-`volume: -10`    
-`talk dir: spell`    
-`talk file: spell`    
-`lang: /.rockbox/langs/francais.lng`    
+`volume: -10`   
+`talk dir: spell`   
+`talk file: spell`   
+`fmr: /.rockbox/fmpresets/Grenoble.fmr`   
+`lang: /.rockbox/langs/francais.lng`   
 <br>
 
-# Si je reprends les lignes données par Sof avec mon changement afin d'avoir la radio  de ma région le contenu du fichier config.cfg au premier lancement de Rockbox  une fois que vous avez mis le fichier francais.voice est le suivant:
-<br>
-`# .cfg file created by rockbox 3.15 - http://www.rockbox.org`    
-<br>
-`volume: -10`    
-`talk dir: spell`    
-`talk file: spell`    
-`fmr: /.rockbox/fmpresets/Grenoble.fmr`    
-`lang: /.rockbox/langs/francais.lng`    
-<br>
+Le contenu du fichier config.cfg créé ci-dessus est à titre purement informatif car le réglage du volume et le nom du fichier .fmr utilisé pour la radio peut être changer (y compris le nom du fichier de la langue et d'autres paramètres du lecteur) via l'interface de Rockbox par l'utilisateur.    
+
 Ce fichier `config.cfg` est disponible en téléchargement à partir du lien ci-dessous.
-
-# Si je reprends les lignes données par Sof avec mon changement afin d'avoir la radio  de ma région le contenu du fichier config.cfg au premier lancement de Rockbox  une fois que vous avez mis le fichier english.voice est le suivant:
-<br>
-`# .cfg file created by rockbox 3.15 - http://www.rockbox.org`    
-<br>
-`volume: -10`    
-`talk dir: spell`    
-`talk file: spell`    
-`fmr: /.rockbox/fmpresets/Grenoble.fmr`    
-`lang: /.rockbox/langs/english.lng`    
-<br>
-
-# Si je reprends les lignes données par Sof avec mon changement afin d'avoir la radio  de ma région et en faisant d'autres changements le contenu du fichier config.cfg au premier lancement de Rockbox  une fois que vous avez mis le fichier english.voice est le suivant:
-<br>
-`# .cfg file created by rockbox 3.15 - http://www.rockbox.org`    
-<br>
-`volume: -10`    
-`talk dir: spell`    
-`talk file: spell`    
-`talk filetype: on`    
-`Announce Battery Level: on`    
-`fmr: /.rockbox/fmpresets/Grenoble.fmr`    
-`lang: /.rockbox/langs/english.lng`    
-<br>
-
-Les exemples ci-dessus dans les deux langues sont à titre purement informatif car le réglage du volume et le nom du fichier .fmr utilisé pour la radio peut être changer (y compris le nom du fichier de la langue et d'autres paramètres du lecteur) via l'interface de Rockbox par l'utilisateur.    
-Pour configurer la voix qui va nous guider dans différents répertoires et fichiers consulter la section [LA VOIX EN ROCKBOX](#mark25).    
-N'oubliez pas au préalable de consulter la section pour [l'Installation de la voix en français pour un Sansa Clip Plus.](#mark8) (y compris   celle pour l'installation de la voix en anglais).    
 
 # Téléchargement et mise en route du fichier de configuration en français:
 
 1.- Pour obtenir le fichier de configuration en français, vous devez télécharger le fichier nommé:    
-[FichierConfigRockbox3.15FRSansaClipPlus.zip](https://blindhelp.github.io/rockboxfr/FichierConfigRockbox3.15FRSansaClipPlus.zip)    
-2.- Une fois décompresser vous devez trouver le fichier nommé:    
+[FichierConfigRockbox4.0FRSansaClipPlus.zip](https://blindhelp.github.io/rockboxfr/FichierConfigRockbox4.0FRSansaClipPlus.zip)    
+2.- Une fois ddécompresser vous devez trouver le fichier nommé:    
 `config.cfg`    
 3.- Maintenant il nous Reste Copier le fichier nommé:    
 `config.cfg`    
@@ -725,8 +1212,8 @@ P.S: La charge de la batterie prend environs trois heures.
 À savoir que l'interface en anglais est différente du français et cette première  ne sera pas traitée dans ce tutoriel.    
 Mais je ne vais pas vous laisser lâcher tout de suite  dans la nature, car il existe une documentation très détaillée à télécharger ou à consulter en ligne pour le lecteur Sansa Clip Plus  dans la langue de Shakespeare.    
 Faire Enregistrer la cible du lien sous... pour les deux premiers manuels (pdf et html-zip) pour le lire avec plus de confort.    
-[pdf 1403 kB](https://download.rockbox.org/daily/manual/rockbox-sansaclipplus.pdf)    
-[html-zip 599 kB](https://download.rockbox.org/daily/manual/rockbox-sansaclipplus-html.zip)    
+[pdf 1490 kB](https://download.rockbox.org/daily/manual/rockbox-sansaclipplus.pdf)    
+[html-zip 642 kB](https://download.rockbox.org/daily/manual/rockbox-sansaclipplus-html.zip)    
 Et voici ci-dessous ce même manuel en anglais consultable en ligne via Rockbox.org:    
 [online](https://download.rockbox.org/daily/manual/rockbox-sansaclipplus/rockbox-build.html)    
 Puis finalement voici ci-dessous les sources de la page en anglais où j'ai fait les trouvailles, toujours via Rockbox.org:    
@@ -1260,8 +1747,8 @@ Mais le dossier LIFEBOLG est visible si On accède par l'élément Dossiers et F
 À savoir que l'interface en anglais est différente du français et cette première  ne sera pas traitée dans ce tutoriel.    
 Mais je ne vais pas vous laisser lâcher tout de suite  dans la nature, car il existe une documentation très détaillée à télécharger ou à consulter en ligne pour le lecteur Sansa Clip Plus  dans la langue de Shakespeare.    
 Faire Enregistrer la cible du lien sous... pour les deux premiers manuels (pdf et html-zip) pour le lire avec plus de confort.    
-[pdf 1403 kB](https://download.rockbox.org/daily/manual/rockbox-sansaclipplus.pdf)    
-[html-zip 599 kB](https://download.rockbox.org/daily/manual/rockbox-sansaclipplus-20200922-html.zip)    
+[pdf 1490 kB](https://download.rockbox.org/daily/manual/rockbox-sansaclipplus.pdf)    
+[html-zip 642 kB](https://download.rockbox.org/daily/manual/rockbox-sansaclipplus-html.zip)    
 Et voici ci-dessous ce même manuel en anglais consultable en ligne via Rockbox.org:    
 [online](https://download.rockbox.org/daily/manual/rockbox-sansaclipplus/rockbox-build.html)    
 Puis finalement voici ci-dessous les sources de la page en anglais où j'ai fait les trouvailles, toujours via Rockbox.org:    
@@ -1269,7 +1756,19 @@ Puis finalement voici ci-dessous les sources de la page en anglais où j'ai fait
 ou:    
 [Index of /daily/manual](https://download.rockbox.org/daily/manual/)    
 Si vous avez mis le fichier francais.voice comme indiqué plus haut suivez ces instructions:    
-Débranchez votre Lecteur Sansa Clip Plus du PC (Retirer le périphérique en toute sécurité et éjecter le média) et allumez le lecteur, à ce stade  celui-ci Démarre  sur Rockbox ; Vous devriez maintenant avoir les menus parlants.    
+Débranchez votre Lecteur Sansa Clip Plus du PC (Retirer le périphérique en toute sécurité et éjecter le média).
+
+Note:    
+Si vous êtes dans l'interface de l'Utilitaire Rockbox, vous aurez l'élément appelé:    
+`Ejecter bouton Alt+ E`    
+L'appui sur ce bouton éjectera votre lecteur `SanDisk Sansa Clip+` de votre Système d'exploitation (Windows 11 pro, par exemple)    
+
+Le dialogue `Périphérique éjecté` apparaît accompagné d'un message vous indiquant que cela a réussi:    
+`Périphérique éjecté avec succès. Vous pouvez maintenant déconnecter le lecteur du PC.`    
+`OK bouton`
+Appuyez sur OK pour fermer ce dialogue.    
+
+puis allumez le lecteur, à ce stade  celui-ci Démarre  sur Rockbox ; Vous devriez maintenant avoir les menus parlants.    
 Sinon, pour configurer la voix qui va nous guider dans différents répertoires et fichiers, ainsi que dans les menus, il faut aller sur Réglages, puis a l'aide de la touche de navigation il faut chercher puis valider avec la touche de sélection l'option Réglages généraux, puis à nouveau avec la touche de navigation chercher puis valider avec la touche de sélection l'option Interface vocal.    
 Chercher les options des menus à l'aide de la touche de navigation.    
 Pour valider le choix il faut appuyer sur la touche de sélection sur l'option souhaitez.    
@@ -1290,33 +1789,89 @@ Il y à les options Oui ou Non.
 Prononcer le niveau de la batterie.    
 Il y à les options Oui ou Non.    
 
-Les fichiers avec l'extention .talk que la voix nous va lire il doive être créer au préalable par l'utilisateur, car notre lecteur ne dispose pas un moteur de voix installer!!!    
-Donc, si nous voulons que un déterminé dossier soit plutot verbaliser comme un mot que épeler, il faut que les fichiers .talk soit générer depuis le PC.    
-Tout cela sa ce fait grace a l'utilitaire nommé:    
-Rockbox utility, le même utiliser pour installer notre firmware Rockbox pour notre lecteur Sansa Clip Plus!.    
+Note:    
+Les fichiers avec l'extention .talk que la voix nous va lire il doive être créer soit via Rockboxutility ou en allant sur le  menu :    
+`Accessibilité réduit Alt+ A`    
+Créer les fichiers d'annonce Alt+ a
+Ceux-ci sont nécessaires pour que Rockbox énonce les noms des fichiers et des dossiers    
+Créer le fichier de voix Alt+ C
+Celui-ci est requis pour que Rockbox parle. La synthèse vocale est activée par défaut, donc si vous installez le fichier de voix , Rockbox parlera    
 
-L'utilitaire  génère  un fichier nommé:    
-_dirname.talk.    
-Celui-ci va faire en sorte que notre dossier soi lù correctement.    
-Il ne doit pas être supprimer!!!    
-Aussi on peut générer  des fichiers .Talk pour nos fichiers.     
-L'utilitaire Rockbox utility va générer un fichier nommé par exemple:    
-`coco.mp3.talk`    
-qui va être dans le dossier ou se trouve le fichier nommé par exemple:    
-`coco.mp3`    
-Remarque: Le fichier .talk il ne doit pas être supprimer!    
-Dans le cas contraire le fichier coco.mp3 va être à nouveau épeler!!!    
-N'oubliez pas que pour créer les voix, il faut avoir installer des voix sapi5 sur votre PC afin que l'utilitaire Rockbox utility fonctione correctement!!     
-
-Ce document en anglais via Rockbox.org couvre les différentes capacités annoncés ci-dessus   pour l'option Interface vocal, vous pouvez le consulter en cliquant sur le lien ci-dessous:    
-[VoiceHowto](https://www.rockbox.org/wiki/VoiceHowto)    
-Une fois ouverte la page voir la section "Voiced names for directories and files" laquelle  je trouve qu'elle est pertinente et je pense que cela peut vous aider   pour une meilleure configuration phonétique des noms des répertoires et fichiers dans l'option Interface vocal.    
+Reportez-vous à la section [8.1.- Créer les fichiers d'annonce  en français pour un Sansa Clip Plus.](#mark8-1)
 
 [Retour au sommaire](#Sommaire)
 
-# 26.- Mise à jour du firmware Rockbox sur notre Sansa Clip Plus<a id="mark26"></a>
+# 26.- Mise à jour du firmware Rockbox sur notre Sansa Clip Plus.<a id="mark26"></a>
 
 Pour mettre à jour le firmware Rockbox, il suffit d'utiliser Rockbox Utility comme pour la première installation mais en cochant la case Rockbox seulement cette fois. En effet, l'installation du bootloader n'est nécessaire que pour la première installation, pas pour les mises à jour du firmware Rockbox.    
+
+L'utilisation de [RockboxUtility](https://www.rockbox.org/wiki/RockboxUtility.html) est le moyen le plus simple d'installer Rockbox. Exécutez simplement l'installateur et suivez les instructions à l'écran. Assurez-vous d'arrêter / éjecter / démontrer le disque USB avant de le débrancher.    
+
+Si vous souhaitez mettre à jour manuellement le firmware Rockbox 4.0 pour le lecteur SANDISK Sansa Clip Plus une fois que vous l'avez branchée vous trouverez le lecteur dans le poste de travail comme nom:    
+`SANSA CLIPP (Lettre de votre lecteur:) (Voir Ce PC sous Windows 11)`    
+
+# Pour commencer le processus d'installation.    
+
+1. Téléchargez la version de Rockbox 4.0 manuellement pour le lecteur SanDisk Sansa Clip+  à partir du Lien suivant:    
+[Firmware](https://download.rockbox.org/release/4.0/rockbox-sansaclipplus-4.0.zip)    
+Nom de fichier:    
+`rockbox-sansaclipplus-4.0.zip`    
+2. Connectez votre lecteur à l'ordinateur via USB en mode MSC comme décrit dans le manuel qui est venu avec votre lecteur ou suivez les instructions données au début de ce post. L'installation du bootloader n'est nécessaire que pour la première installation, pas pour les mises à jour du firmware Rockbox.    
+3. Prenez le fichier rockbox-sansaclipplus-4.0.zip que vous avez téléchargé et utilisez la commande "Extraire tout..." à l'aide du menu contextuel en appuyant sur la touche applications située à côté de la touche de contrôle droite sur la plupart des claviers. Sur un clavier sans touche applications, appuyez sur maj+f10 à la place depuis l'Explorateur de fichiers ou depuis l'interface de votre programme afin d'extraire les fichiers sur votre lecteur.    
+Remarque: L'ensemble du contenu du fichier rockbox-sansaclipplus-4.0.zip doit être extrait directement à la racine du lecteur . N'essayez pas de créer un répertoire séparé sur votre lecteur pour les fichiers Rockbox! Le fichier rockbox-sansaclipplus-4.0.zip  contient déjà la structure interne dont Rockbox a besoin. Si le contenu du fichier rockbox-sansaclipplus-4.0.zip  est extrait correctement, vous aurez un répertoire appelé: `.rockbox`, qui contient tous les fichiers nécessaires à Rockbox au même niveau que les répertoires principaux du lecteur.    
+
+[Retour au sommaire](#Sommaire)
+
+# 26.1.- Installation manuelle des polices pour notre lecteur Sansa Clip Plus.<a id="mark26-1"></a>
+
+Pour l'installation manuelle des polices pour notre lecteur Sansa Clip Plus vous devrez télécharger l'archive .zip contenant les polices en cliquant sur le lien suivant:    
+[Fonts](https://download.rockbox.org/release/4.0/rockbox-fonts-4.0.zip)    
+Nom de fichier:    
+`rockbox-fonts-4.0.zip`    
+Une fois ce fichier extrait contiendra le dossier:    
+`.rockbox`    
+puis le sous-dossier:    
+`fonts`    
+Ce sous-dossier contiendra les 81 fichiers relatifs à les polices pour le firmware Rockbox 4.0.
+
+[Retour au sommaire](#Sommaire)
+
+# 26.2.- Installation manuelle des thèmes pour notre lecteur Sansa Clip Plus.<a id="mark26-2"></a>
+
+Utile sauf si vous avez un residue visuel.    
+Vous pouvez télécharger via Rockbox.org (page en anglais) deux thèmes qu'on m'a dit qu'ils sont très sympas, [Classic](https://themes.rockbox.org/index.php?themeid=1035&target=sansaclipplus) et [Equilibrium.](https://themes.rockbox.org/index.php?themeid=1534&target=sansaclipplus) Après c'est une question de goût!    
+Vous pouvez également obtenir ces deux thèmes via les liens suivants:    
+Télécharger Classic Theme pour notre lecteur Sansa Clip Plus en cliquant [ici](https://themes.rockbox.org/download.php?themeid=1035)    
+Nom du fichier:    
+`Classic.zip`    
+Télécharger Equilibrium Theme pour notre lecteur Sansa Clip Plus en cliquant [ici](https://themes.rockbox.org/download.php?themeid=1534)    
+Nom du fichier:    
+`equilibrium-sansa-theme.zip`    
+Attention, le pack de polices est indispensable au bon fonctionnement de certains thèmes donc il est préférable de l'installer d'emblée dans tous les cas, même si vous n'installez pas tout de suite de thèmes, pour être tranquille par la suite.    
+
+Une fois le fichier Classic.zip ou equilibrium-sansa-theme.zip extrait contiendra le dossier:    
+`.rockbox`    
+puis les sous-dossiers:    
+`themes`    
+`wps`    
+
+[Retour au sommaire](#Sommaire)
+
+# 26.3.- Installation manuelle de la documentation en anglais pour notre lecteur Sansa Clip Plus.<a id="mark26-3"></a>
+
+Remarque sur la documentation en pdf et en html en anglais:    
+Le fichier de documentation en anglais pour notre lecteur SANDISK Sansa Clip Plus appelé:    
+`rockbox-sansaclipplus-4.0.pdf`    
+et l'archive appelé:    
+`rockbox-sansaclipplus-4.0-html.zip`    
+Une fois ce fichier extrait contiendra le dossier:    
+`html`    
+Ce dossier contiendra les éléments liés audit dossier.    
+
+Notez que ce fichier `rockbox-sansaclipplus-4.0.pdf` et le dossier HTML doivent être placés au même niveau que les répertoires principaux du lecteur.     
+
+Note:    
+À mon avis, il est préférable de consulter le fichier PDF qui me semble plus accessible pour nous les miro.    
 
 [Retour au sommaire](#Sommaire)
 
@@ -1324,6 +1879,32 @@ Pour mettre à jour le firmware Rockbox, il suffit d'utiliser Rockbox Utility co
 
 Je doute que quelqu'un souhaite le faire, :-(    
 mais si vraiment vous y tenez, il suffit alors de réinstaller le firmware Sansa Clip Plus d'origine que vous avez téléchargé en mettant le fichier *.bin à la racine de votre Sansa Clip Plus puis en le laissant mettre à jour le firmware lors de la déconnexion de l'appareil. Ce fichier *.bin n'ayant pas été patché par Rockbox Utility, il ne contient donc plus le bootloader Rockbox. Ensuite et enfin, supprimez tout simplement le dossier .rockbox à la racine de votre baladeur Sansa Clip Plus.    
+
+Vous pouvez utiliser aussi l'Utilitaire Rockbox.    
+Une fois lancé, allez à l'élément appelé:    
+`Sauvegarde & Désinstallation onglet Alt+ D`    
+Sauvegarde bouton
+En appuyant sur ce bouton, il fera une sauvegarde de notre installation du firmware Rockbox.    
+Il ne sera pas nécessaire de le faire je pense que si vous le souhaitez le désinstaller de votre lecteur.    
+`Périphérique groupe`    
+`Modifier bouton Alt+ M`    
+Ce bouton ne sert qu'à modifier l'emplacement de notre lecteur.    
+`Désinstaller Rockbox bouton`    
+Si vous êtes complètement sûr de votre décision, vous pouvez le faire, mais ce serait dommage! :(
+`Ejecter bouton Alt+ E`    
+L'appui sur ce bouton éjectera votre lecteur `SanDisk Sansa Clip+` de votre Système d'exploitation (Windows 11 pro, par exemple)    
+
+Le dialogue `Périphérique éjecté` apparaît accompagné d'un message vous indiquant que cela a réussi:    
+`Périphérique éjecté avec succès. Vous pouvez maintenant déconnecter le lecteur du PC.`    
+`OK bouton`
+Appuyez sur OK pour fermer ce dialogue.    
+
+Vous pouvez également le faire en allant au menu:    
+`Actions réduit Alt+ s`    
+`Désinstallation réduit Alt+ D`    
+`Désinstaller Rockbox Alt+ R`    
+Lorsque cette option est sélectionnée,la fenêtre de l'Utilitaire Rockbox s'ouvre...    
+Suivez les instructions à l'écran.    
 
 [Retour au sommaire](#Sommaire)
 
@@ -1340,20 +1921,27 @@ Bref cette documentation est plus pour nos amis voyants n'utilisant pas  le firm
 # Avant de vous lâcher dans la nature
 Sachez que des âmes charitables  de l'équipe de RockBox ont écrit un manuel d'utilisation pour Rockbox sur le Sansa Clip Plus, vous le trouverez [ici en PDF (en anglais).](http://download.rockbox.org/manual/rockbox-sansaclipplus.pdf)    
 
-Note:    
-Vous pouvez le consulter en ligne ou le télécharger puis le lire avec votre lecteur PDF préféré.    
+# Composants de Rockbox à télécharger et installer manuellement:
+Vous pouvez les télécharger à partir de [cette page (en anglais)](https://www.rockbox.org/daily.shtml)    
+
+Une fois ouvert cette page, chercher le mot:    
+`sansaclipplus`    
+Vous trouverez ici des liens pour télécharger la dernière version de Rockbox, les différents fichiers de voix des principales langues supportées par Rockbox et le manuel en anglais, tous ceux-ci sont des  "Daily builds", c'est-à-dire des constructions quotidienne pour le lecteur Sansa Clip Plus.    
 
 [Retour au sommaire](#Sommaire)
 
 # 29.- Mots final<a id="mark29"></a>
 
-Chers amis du blog de RockboxFR Je pense avoir fait le tour des fonctions de base du Sansa Clip Plus!    
+Chers amis du blog de RockboxFR en espérant que ces explications pour le téléchargement et installation du firmware Rockbox 4.0 pour le lecteur SANDISK Sansa Clip Plus soit en utilisant l'Utilitaire Rockbox ou la procédure manuelle ils vous servent à quelque chose. 👍    
+Y compris le résumé de tous les fonctions de base du Sansa Clip Plus!    
 En tout cas pour la lecture des fichiers audio puis la radio FM déjà se n'est pas trop mal! lol de lol!    
 
-amusez-vous bien avec votre lecteur Sansa Clip Plus!    
-Voilà, maintenant vous savez tout!    
-Arobamicalement à vous.    
-Rémy (BlindHelp!)
+Amusez-vous bien avec votre lecteur Sansa Clip Plus!    
+
+Merci beaucoup à    <span lang="en">Solomon Peachy!</span> pour avoir partagé ces informations de cette nouvelle mise à jour du firmware Rockbox dans sa dernière version 4.0 pour le lecteur SanDisk Sansa Clip+. :)    
+Profitez de Rockbox - un microprogramme pour les lecteurs de musique numérique gratuit!    
+@+    
+BlindHelp!    
 
 [Retour au sommaire](#Sommaire)
 
@@ -1365,3 +1953,4 @@ En outre, si vous êtes intéressé sur mes autres blogs, vous devriez jeter un 
 [Blog de BlindHelp via Blogspot.com](http://blindhelp.blogspot.fr/)                    
 
 ---
+
