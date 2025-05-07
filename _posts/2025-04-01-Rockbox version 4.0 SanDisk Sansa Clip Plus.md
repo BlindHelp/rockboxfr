@@ -93,9 +93,9 @@ Voici plus bas un commentaire de mon ami Stephane 🇫🇷 (Voyant) à propos du
 > 1- solidement construit    
 > 2- neuf il a une une grosse autonomie donc il en reste assez après des années    
 > 3- on trouve des batteries de rechange et un bricoleur avisé peut facilement les remplacer.    
-
+> 
 > Tshaw !!    
-
+> 
 > Steph    
 
 Rockbox fonctionne sur de nombreux autres lecteurs qui sont considérés comme instables ou sont confrontés à des problèmes importants empêchant une version formelle et favorable. Pour une liste complète, voir la page [TargetStatus (en anglais)](https://www.rockbox.org/wiki/TargetStatus.html).
@@ -157,6 +157,8 @@ Sommaire <a id="Sommaire"></a>
 # 1.- Introduction.<a id="mark1"></a>
 
 Dans ce tutoriel, je ne traiterai pas de la description du produit, cependant, certaines descriptions ou manipulations pour le lecteur SANDISK Sansa Clip Plus sont mentionnées tout au long de ce post comme un rappel pour les utilisateurs de ce lecteur avec le firmware Rockbox.    
+
+N'oubliez pas que le lecteur si vous venez de l'acheter, une fois déballé pour la première fois vous devriez le commencer à charger pendant environ trois heures.    
 
 Pour plus de détails sur la description du produit vous pouvez lire l'intégralité sur l'un de mes premiers billets en cliquant sur le lien ci-dessous:    
 [Tuto pour l'installation de rockbox et utilisation du Sandisk Sansa Clip Plus](https://blindhelp.github.io/rockboxfr/Tuto-pour-l'installation-de-rockbox-et-utilisation-du-Sandisk-Sansa-Clip-Plus/)    
@@ -288,7 +290,7 @@ Micrologiciel Clip+ (toutes régions) - Télécharger le micrologiciel
 Une fois ddécompresser vous devez trouver le fichier nommé :    
 `clppa.bin`    
 
-# [Étapes pour mettre à jour le micrologiciel des lecteurs MP3 Sansa Clip Sport, Clip Zip, Clip et Clip+ | SanDisk](https://support-fr.sandisk.com/app/answers/detailweb/a_id/38643]
+# [Étapes pour mettre à jour le micrologiciel des lecteurs MP3 Sansa Clip Sport, Clip Zip, Clip et Clip+ | SanDisk](https://support-fr.sandisk.com/app/answers/detailweb/a_id/38643)
 
 1. Retirez toute carte mémoire externe du Clip+ avant d'effectuer la mise à jour du micrologiciel.
 2. Assurez-vous que la batterie est chargée à plus de 50 %.
@@ -508,8 +510,8 @@ Le bootloader est nécessaire pour démarrer Rockbox. Son installation n'est né
 Les thèmes permettent de modifier l'interface utilisateur de Rockbox. Utilisez "Personnaliser" pour sélectionner les thèmes.    
 Utile sauf si vous avez un residue visuel.    
 Si vous souhaitez avoir des thèmes particuliers, choisissez les en cliquant sur le bouton Personnaliser afin d'installer.    
-Personnaliser bouton`    
-Vous pouvez télécharger via Rockbox.org (page en anglais) deux thèmes qu'on m'a dit qu'ils sont très sympas, [Classic](http://themes.rockbox.org/index.php?themeid=1035&target=sansaclipplus) et [Equilibrium.](http://themes.rockbox.org/index.php?themeid=1534&target=sansaclipplus) Après c'est une question de goût!    
+`Personnaliser bouton`    
+Vous pouvez télécharger via Rockbox.org (page en anglais) deux thèmes qu'on m'a dit qu'ils sont très sympas, [Classic](https://themes.rockbox.org/index.php?themeid=1035&target=sansaclipplus) et [Equilibrium.](https://themes.rockbox.org/index.php?themeid=1534&target=sansaclipplus) Après c'est une question de goût!    
 Reportez-vous à la section :    
 [26.2.- Installation manuelle des thèmes pour notre lecteur Sansa Clip Plus.](#mark26-2)    
 Attention, le pack de polices est indispensable au bon fonctionnement de certains thèmes donc il est préférable de l'installer d'emblée dans tous les cas, même si vous n'installez pas tout de suite de thèmes, pour être tranquille par la suite.    

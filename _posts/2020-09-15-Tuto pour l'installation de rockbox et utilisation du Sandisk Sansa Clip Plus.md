@@ -269,7 +269,7 @@ Micrologiciel Clip+ (toutes régions) - Télécharger le micrologiciel
 Une fois décompresser vous devez trouver le fichier nommé :    
 `clppa.bin`    
 
-# [Étapes pour mettre à jour le micrologiciel des lecteurs MP3 Sansa Clip Sport, Clip Zip, Clip et Clip+ | SanDisk](https://support-fr.sandisk.com/app/answers/detailweb/a_id/38643]
+# [Étapes pour mettre à jour le micrologiciel des lecteurs MP3 Sansa Clip Sport, Clip Zip, Clip et Clip+ | SanDisk](https://support-fr.sandisk.com/app/answers/detailweb/a_id/38643)
 
 1. Retirez toute carte mémoire externe du Clip+ avant d'effectuer la mise à jour du micrologiciel.
 2. Assurez-vous que la batterie est chargée à plus de 50 %.
