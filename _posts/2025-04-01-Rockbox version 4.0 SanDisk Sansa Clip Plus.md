@@ -272,7 +272,8 @@ Il faut téléchargez les fichiers suivants pour notre lecteur Sansa Clip Plus p
 
 1. L'utilitaire Rockbox utility    
 Pour installer Rockbox sur notre Sansa Clip Plus, nous allons avoir besoin de RockboxUtility, un petit programme qui va configurer comme un grand le sansa clip plus!    
-Lors de l'écriture de cet article la dernière  version en date de l'utilitaire Rockbox était la 1.5.1 sortie le 01.04.2015 pour la plate-forme Windows (7 / 8 / 10)    
+Lors de l'écriture de cet article la dernière  version en date de l'utilitaire Rockbox était la 1.5.1 sortie le 01.04.2025 pour la plate-forme Windows (7 / 8 / 10)    
+Fonctionne également sous Windows 11    
 Mais le firmware Rockbox comporte comme numéro de version: 4.0    
 Ci-dessous Je vous donne le dernier lien de téléchargement de RockboxUtility trouvé sur cette page,  disponible sous Windows:    
 [https://download.rockbox.org/rbutil/win32/RockboxUtility-v1.5.1.zip](http://download.rockbox.org/rbutil/win32/RockboxUtility-v1.5.1.zip)    
@@ -427,48 +428,45 @@ Sans oublier que ce même fichier contiendra le firmware Rockbox pour les balade
 `RockboxUtility.exe`    
 Donc une fois valider sur celui-ci, se déplacer avec des commandes clavier normales, comme "Tabulation" et "Majuscule+Tabulation" pour se déplacer entre les contrôles:    
 Au  premier lancement vous aurez une fenêtre avec un texte en anglais en lecture seule: "Historique des modifications", ", utilisez les Flèches Haut ou Bas pour lire le texte.    
-
-``
-Historique des modifications dialogue
-Rockbox Utility 1.4
-Rework player detection functionality to provide better results.
-Limit mountpoints ("Select your device in the filesystem") in configuration dialog to usable ones.
-Change encoder volume configuration to allow more sensible values.
-Save proxy password differently in configuration file (better solution for FS#12166).
-Add support for building Rockbox Utility with Qt5.
-Add support for extracting Original Firmware files compressed with CAB (G#418).
-Add support for Creative Zen X-Fi3 (G#419).
-Add Changelog window.
-Rework System Trace functionality.
-Add support for Iriver H300 v1.31K firmware.
-Add support for Sandisk Sansa Clip Zip v01.01.21 firmware.
-Fix manual link for Archos Recorder V2.
-Rockbox Utility 1.4.1
-Fix crash on detecting player in MTP mode (FS#12989).
-Extend hint when uninstallation requires reinstalling the Original Firmware.
-Improve update check information dialog.
-Correct USB IDs for Sandisk Sansa c200v2.
-Add support for iPod Classic 6G bootloader.
-Rockbox Utility 1.5.0
-Add support for xDuoo X3, X3ii, X20.
-Add support for AGPTek Rocker.
-Add support for AIGO Eros Q and various clones (AIGO Eros K, AGPTek H3, HIFI Walker H2, Surfans F20)
-Add support for showing "retired" target status.
-Update Iriver H100 / H300 series bootloader.
-Rename Game Files installation to Plugin Data; now installs files for further games (Duke3D, Wolfenstein3D, etc.) as well as other plugins (MIDI patchset)
-Support installing daily builds.
-Move Manual / prerendered voice file installation to main dialog.
-Support installing voice files in other languages than english (available languages depends on build).
-Improved HiDPI support.
-Drop support for Qt4, now requires Qt5.
-Update various external libraries.
-Server Downloads changed to https.
-Rockbox Utility 1.5.1
-Fix bootloader installation for Ipods.
-Fix bootloader installation for Sandisk players.
-Improve responsiveness on install / uninstall.
-Enable Themes installation if themes are selected.
-``
+`Historique des modifications dialogue`    
+`Rockbox Utility 1.4`    
+`Rework player detection functionality to provide better results.`    
+`Limit mountpoints ("Select your device in the filesystem") in configuration dialog to usable ones.`    
+`Change encoder volume configuration to allow more sensible values.`    
+`Save proxy password differently in configuration file (better solution for FS#12166).`    
+`Add support for building Rockbox Utility with Qt5.`    
+`Add support for extracting Original Firmware files compressed with CAB (G#418).`    
+`Add support for Creative Zen X-Fi3 (G#419).`    
+`Add Changelog window.`    
+`Rework System Trace functionality.`    
+`Add support for Iriver H300 v1.31K firmware.`    
+`Add support for Sandisk Sansa Clip Zip v01.01.21 firmware.`    
+`Fix manual link for Archos Recorder V2.`    
+`Rockbox Utility 1.4.1`    
+`Fix crash on detecting player in MTP mode (FS#12989).`    
+`Extend hint when uninstallation requires reinstalling the Original Firmware.`    
+`Improve update check information dialog.`    
+`Correct USB IDs for Sandisk Sansa c200v2.`    
+`Add support for iPod Classic 6G bootloader.`    
+`Rockbox Utility 1.5.0`    
+`Add support for xDuoo X3, X3ii, X20.`    
+`Add support for AGPTek Rocker.`    
+`Add support for AIGO Eros Q and various clones (AIGO Eros K, AGPTek H3, HIFI Walker H2, Surfans F20)`    
+`Add support for showing "retired" target status.`    
+`Update Iriver H100 / H300 series bootloader.`    
+`Rename Game Files installation to Plugin Data; now installs files for further games (Duke3D, Wolfenstein3D, etc.) as well as other plugins (MIDI patchset)`    
+`Support installing daily builds.`    
+`Move Manual / prerendered voice file installation to main dialog.`    
+`Support installing voice files in other languages than english (available languages depends on build).`    
+`Improved HiDPI support.`    
+`Drop support for Qt4, now requires Qt5.`    
+`Update various external libraries.`    
+`Server Downloads changed to https.`    
+`Rockbox Utility 1.5.1`    
+`Fix bootloader installation for Ipods.`    
+`Fix bootloader installation for Sandisk players.`    
+`Improve responsiveness on install / uninstall.`    
+`Enable Themes installation if themes are selected.`    
 
 `Montrer au démarrage`    
 case à cocher (non cochée).    
@@ -937,7 +935,7 @@ Lorsque vous êtes de retour sur l'élément appelé:
 `Modifier bouton Enter`    
 Si vous vous souvenez bien, c'était le premier bouton que nous avons trouvé dans cette fenêtre pour choisir un moteur TTS dans la liste déroulante une fois cet élément ouvert.    
 Ensuite, vous trouverez plusieurs cases à cocher:    
-Appuyez sur barre d'espace pour modifier l'une de ces options, ou laissez-les par défaut.    
+Appuyez sur la barre d'espace pour modifier l'une de ces options, ou laissez-les par défaut.    
 Mon choix est le suivant:    
 `Générer pour les fichiers case à cocher coché`    
 `Générer pour les dossiers case à cocher coché`    
