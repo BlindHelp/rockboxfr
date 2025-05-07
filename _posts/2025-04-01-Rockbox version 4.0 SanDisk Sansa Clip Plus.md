@@ -158,7 +158,7 @@ Sommaire <a id="Sommaire"></a>
 
 Dans ce tutoriel, je ne traiterai pas de la description du produit, cependant, certaines descriptions ou manipulations pour le lecteur SANDISK Sansa Clip Plus sont mentionnées tout au long de ce post comme un rappel pour les utilisateurs de ce lecteur avec le firmware Rockbox.    
 
-N'oubliez pas que le lecteur si vous venez de l'acheter, une fois déballé pour la première fois vous devriez le commencer à charger pendant environ trois heures.    
+P.-S. N'oubliez pas que le lecteur si vous venez de l'acheter, une fois déballé pour la première fois vous devriez le commencer à charger pendant environ trois heures.    
 
 Pour plus de détails sur la description du produit vous pouvez lire l'intégralité sur l'un de mes premiers billets en cliquant sur le lien ci-dessous:    
 [Tuto pour l'installation de rockbox et utilisation du Sandisk Sansa Clip Plus](https://blindhelp.github.io/rockboxfr/Tuto-pour-l'installation-de-rockbox-et-utilisation-du-Sandisk-Sansa-Clip-Plus/)    
@@ -516,21 +516,21 @@ Reportez-vous à la section :
 [26.2.- Installation manuelle des thèmes pour notre lecteur Sansa Clip Plus.](#mark26-2)    
 Attention, le pack de polices est indispensable au bon fonctionnement de certains thèmes donc il est préférable de l'installer d'emblée dans tous les cas, même si vous n'installez pas tout de suite de thèmes, pour être tranquille par la suite.    
 `Plugin Data case à cocher coché`    
-PS: Renommer l'élément précédent appelé: `Game Files installation` (Installation Fichiers de jeux) en `Plugin Data`    
+P.-S. Renommé l'élément précédent appelé: `Game Files installation` (Installation Fichiers de jeux) en `Plugin Data` dans cette nouvelle version Rockbox Utility    
 Si vous êtes intéressés par Doom (oui, oui!), laissez la case coché    
 Je ne l'ai pas essayé, mais on parle en bien.    
 `Manuel case à cocher non coché Alt+ M`    
 C'est une case à cocher qui, une fois cochée, affiche une liste déroulante qui vous permet de sélectionner quel type de manuel vous devez utiliser pour votre lecteur.    
-Vous pouvez choisir Parmi l'un des éléments suivants :    
-PDF
-HTML (zip
-HTML
+Vous pouvez choisir parmi l'un des éléments suivants :    
+`PDF`    
+`HTML (zip`    
+`HTML`    
 Une fois que vous avez fini de faire votre choix, appuyez sur Tab.    
 `Voice File case à cocher non coché Alt+ V`    
 C'est une case à cocher qui, une fois cochée, affiche une liste déroulante qui vous permet de sélectionner le fichier de voix pour le firmware Rockbox.    
 Dans notre cas, nous choisirons l'élément "Francais"sur cette liste.    
 Une fois que vous avez fini de faire votre choix, appuyez sur Tab.    
-PS: Pendant l'installation, téléchargera et installera Le contenu du fichier appelé:    
+P.-S. Pendant l'installation, téléchargera et installera Le contenu du fichier appelé:    
 `voice-sansaclipplus-4.0-francais.zip`    
 `Installer bouton`    
 Quand vous êtes prêt, cliquez sur Installer, RockboxUtility va alors vous demander de lui fournir le fichier clppa.bin (téléchargeable sur [le site de Sandisk](http://kb.sandisk.com/app/answers/detail/a_id/300) ou [ici)](https://blindhelp.github.io/rockboxfr/clipplus01.02.18.zip)    
@@ -539,7 +539,7 @@ Comme vous l'indique cette fenêtre, l'installation du bootloader a besoin du fi
 `Déploiement de Rockbox`    
 `Prérequis fenêtre`    
 `Système réduit`    
-`L'installation du bootloader nécessite que vous fournissiez une copie du firmware original (fichier bin). Ce firmware sera alors modifié et installé sur votre lecteur avec le bootloader de Rockbox. Vous devez télécharger ce fichier par vous-même pour des raisons légales. Veuillez vous référer aux Forums de Sansa ou au manuel et à la page wiki Sansa AMS pour obtenir ce fichier. Note:Ce fichier n'est pas présent sur votre lecteur et disparaîtra automatiquement après l'avoir installé. Appuyez sur Ok pour continuer et parcourir les fichiers sur votre ordinateur pour indiquer le fichier du firmware.`    
+`L'installation du bootloader nécessite que vous fournissiez une copie du firmware original (fichier bin). Ce firmware sera alors modifié et installé sur votre lecteur avec le bootloader de Rockbox. Vous devez télécharger ce fichier par vous-même pour des raisons légales. Veuillez vous référer aux Forums de Sansa ou au manuel et à la page wiki Sansa AMS pour obtenir ce fichier. Note: Ce fichier n'est pas présent sur votre lecteur et disparaîtra automatiquement après l'avoir installé. Appuyez sur Ok pour continuer et parcourir les fichiers sur votre ordinateur pour indiquer le fichier du firmware.`    
 `OK bouton`    
 `Abort bouton`    
 cliquez sur `OK`    
@@ -603,8 +603,7 @@ Au bout de quelques instants, RockboxUtility arrive à l'étape "installation de
 `Création du journal d'installation`    
 `Le paquet a été installé avec succès.`    
 Au bout de quelques instants, RockboxUtility arrive à l'étape "installation de thèmes". Ces thèmes n'étant utiles que pour ceux qui ont un restant visuel.    
-PS:    
-Vérifiez que Rockbox Utility a bien ajouté le fichier `*.bin` à la racine de votre baladeur.    
+P.-S. Vérifiez que Rockbox Utility a bien ajouté le fichier `*.bin` à la racine de votre baladeur.    
 si vous ne voyez pas certains dossiers ou fichiers sur votre baladeur, c'est probablement parce que vous n'avez pas activé l'affichage des dossiers et fichiers cachés dans l'explorateur Windows.    
 Par exemple, ".rockbox" est un répertoire caché.    
 Pour cela cliquez sur "Affichage", puis "Afficher les fichier cachés".    
@@ -625,7 +624,7 @@ L'appui sur ce bouton éjectera votre lecteur `SanDisk Sansa Clip+` de votre Sys
 
 Le dialogue `Périphérique éjecté` apparaît accompagné d'un message vous indiquant que cela a réussi:    
 `Périphérique éjecté avec succès. Vous pouvez maintenant déconnecter le lecteur du PC.`    
-`OK bouton`
+`OK bouton`    
 Appuyez sur OK pour fermer ce dialogue.    
 
 Vous pouvez aussi installer le firmware Rockbox depuis l'élément `Installation` depuis le menu:    
@@ -705,22 +704,22 @@ C'est une case à cocher qui, une fois cochée, affiche une liste déroulante qu
 Dans notre cas, nous choisirons l'élément "Francais"sur cette liste.    
 Une fois que vous avez fini de faire votre choix, appuyez sur Tab, puis appuyez sur :    
 `Installer bouton Alt+ I`    
-PS: Pendant l'installation, téléchargera et installera Le contenu du fichier appelé:    
+P.-S. Pendant l'installation, téléchargera et installera Le contenu du fichier appelé:    
 `voice-sansaclipplus-4.0-francais.zip`    
 
 Note:    
 Répétez cette même opération mentionnée ci-dessus si vous souhaitez installer d'autres langues, en choisissant sur la liste, par exemple:    
-``
-Composants de Rockbox à installer English (UK)
-Composants de Rockbox à installer English (US)
-Composants de Rockbox à installer Espanol
-Composants de Rockbox à installer Francais
-``
+`Composants de Rockbox à installer English (UK)`    
+`Composants de Rockbox à installer English (US)`    
+`Composants de Rockbox à installer Espanol`    
+`Composants de Rockbox à installer Francais`    
 
 # Installation manuelle de la voix en français pour un Sansa Clip Plus.
 
-Ci-dessous, nous trouverons un ensemble de liens pour télécharger les voix pour ce lecteur:    
+Ci-dessous, nous trouverons un ensemble de liens pour télécharger les voix compatible avec le firmware Rockbox version 4.0 pour ce lecteur:    
 Je ne mettrai ici que les voix qui peuvent être utiles pour nous:    
+
+# Voix Anglais Grande-Bretagne
 
 [Voice (en-gb)](https://download.rockbox.org/release/4.0/voice-sansaclipplus-4.0-english.zip)    
 Nom de fichier:    
@@ -734,6 +733,8 @@ Qui contient les fichiers suivants:
 `english.voice`    
 `InvalidVoice_english.talk`    
 
+# Voix Anglais États-Unis
+
 [Voice (en-us)](https://download.rockbox.org/release/4.0/voice-sansaclipplus-4.0-english-us.zip)    
 Nom de fichier:    
 `voice-sansaclipplus-4.0-english-us.zip`    
@@ -745,6 +746,8 @@ Qui contient les fichiers suivants:
 `english-us.lng.talk`    
 `english-us.voice`    
 `InvalidVoice_english-us.talk`    
+
+# Voix Espagnol Espagne
 
 [Voice (es-es)](https://download.rockbox.org/release/4.0/voice-sansaclipplus-4.0-espanol.zip)    
 Nom de fichier:    
@@ -758,6 +761,11 @@ Qui contient les fichiers suivants:
 `espanol.voice`    
 `InvalidVoice_espanol.talk`    
 
+Remarque importante: Dans le cas d'une installation d'une voix en espagnol, vous devrez choisir si vous voulez avoir l'espagnol avec l'accent traditionnel ou avec l'accent mexicain.    
+Nous ne pouvons pas avoir les deux voix car c'est le même nom de fichier pour les deux langues.    
+
+# Voix Espagnol Mexique
+
 [Voice (es-mx)](https://download.rockbox.org/release/4.0/voice-sansaclipplus-4.0-espanol-mx.zip)    
 Nom de fichier:    
 `voice-sansaclipplus-4.0-espanol-mx.zip`    
@@ -770,8 +778,10 @@ Qui contient les fichiers suivants:
 `espanol.voice`    
 `InvalidVoice_espanol.talk`    
 
-Dans ce cas, vous devrez choisir si vous voulez avoir l'espagnol avec l'accent traditionnel ou avec l'accent mexicain.    
+Remarque importante: Dans le cas d'une installation d'une voix en espagnol, vous devrez choisir si vous voulez avoir l'espagnol avec l'accent traditionnel ou avec l'accent mexicain.    
 Nous ne pouvons pas avoir les deux voix car c'est le même nom de fichier pour les deux langues.    
+
+## Voix Français France
 
 [Voice (fr)](https://download.rockbox.org/release/4.0/voice-sansaclipplus-4.0-francais.zip)    
 Nom de fichier:    
@@ -884,8 +894,7 @@ Ici, vous trouverez la case à cocher:
 Ci-dessous, vous trouverez l'élément appelé:    
 `Configurer l'encodage bouton Enter`    
 Je n'ai rien modifié ici, je l'ai laissé tel quel.    
-PS:    
-Si vous appuyez sur ce bouton une boîte de dialogue apparaît:    
+P.-S. Si vous appuyez sur ce bouton une boîte de dialogue apparaît:    
 `Rockbox Speex Encoder dialogue`    
 `Utilitaire Rockbox`    
 Ensuite, viennent les options suivantes (affiché sur ce dialogue par défaut):    
@@ -981,7 +990,7 @@ L'appui sur ce bouton éjectera votre lecteur `SanDisk Sansa Clip+` de votre Sys
 
 Le dialogue `Périphérique éjecté` apparaît accompagné d'un message vous indiquant que cela a réussi:    
 `Périphérique éjecté avec succès. Vous pouvez maintenant déconnecter le lecteur du PC.`    
-`OK bouton`
+`OK bouton`    
 Appuyez sur OK pour fermer ce dialogue.    
 
 [Retour au sommaire](#Sommaire)
@@ -1209,7 +1218,7 @@ Quand on l'allume on écoute le nom du dossier ou nous étions par exemple si on
 # 12.- COMMENT UTILISER  mon lecteur Sansa Clip Plus à l'aide de Rockbox?<a id="mark12"></a>
 
 Note: N'oubliez pas que La batterie doit être complètement chargée avant la première utilisation du lecteur!, je pense que s'il est en 50% c'est bon pour installer le firmware Rockbox.    
-P.S: La charge de la batterie prend environs trois heures.    
+P.-S. La charge de la batterie prend environs trois heures.    
 
 À savoir que l'interface en anglais est différente du français et cette première  ne sera pas traitée dans ce tutoriel.    
 Mais je ne vais pas vous laisser lâcher tout de suite  dans la nature, car il existe une documentation très détaillée à télécharger ou à consulter en ligne pour le lecteur Sansa Clip Plus  dans la langue de Shakespeare.    
@@ -1600,7 +1609,7 @@ Si vous déplacez hors de la zone du sélecteur, vous obtenez la ligne en mode d
 Retourner à la page suivante de caractères (s'il y a plus d'un).    
 La touche de Sélection va insérer la lettre sélectionnée au clavier  sur la position du  curseur dans l'actuelle ligne.    
 
-Sauf erreur de ma part le vide  c'est l'espace.    
+Sauf erreur de ma part le vide c'est l'espace.    
 
 Pour voir les lettres écrite sur la ligne il sufit de se déplacer à l'aide des bboutons du Volume haut et Volume bas pour déplacer le curseur dans l'actuelle ligne.    
 
@@ -1767,7 +1776,7 @@ L'appui sur ce bouton éjectera votre lecteur `SanDisk Sansa Clip+` de votre Sys
 
 Le dialogue `Périphérique éjecté` apparaît accompagné d'un message vous indiquant que cela a réussi:    
 `Périphérique éjecté avec succès. Vous pouvez maintenant déconnecter le lecteur du PC.`    
-`OK bouton`
+`OK bouton`    
 Appuyez sur OK pour fermer ce dialogue.    
 
 puis allumez le lecteur, à ce stade  celui-ci Démarre  sur Rockbox ; Vous devriez maintenant avoir les menus parlants.    
@@ -1898,7 +1907,7 @@ L'appui sur ce bouton éjectera votre lecteur `SanDisk Sansa Clip+` de votre Sys
 
 Le dialogue `Périphérique éjecté` apparaît accompagné d'un message vous indiquant que cela a réussi:    
 `Périphérique éjecté avec succès. Vous pouvez maintenant déconnecter le lecteur du PC.`    
-`OK bouton`
+`OK bouton`    
 Appuyez sur OK pour fermer ce dialogue.    
 
 Vous pouvez également le faire en allant au menu:    
@@ -1946,7 +1955,7 @@ Amusez-vous bien avec votre lecteur Sansa Clip Plus!
 Merci beaucoup à    <span lang="en">Solomon Peachy!</span> pour avoir partagé ces informations de cette nouvelle mise à jour du firmware Rockbox dans sa dernière version 4.0 pour le lecteur SanDisk Sansa Clip+. :)    
 Profitez de Rockbox - un microprogramme pour les lecteurs de musique numérique gratuit!    
 @+    
-BlindHelp! 🇫🇷   
+Rémy (BlindHelp!) 🇫🇷    
 
 [Retour au sommaire](#Sommaire)
 

@@ -432,7 +432,7 @@ Comme vous l'indique cette fenêtre, l'installation du bootloader a besoin du fi
 `Déploiement de Rockbox`    
 `Prérequis fenêtre`    
 `Système réduit`    
-`L'installation du bootloader nécessite que vous fournissiez une copie du firmware original (fichier bin). Ce firmware sera alors modifié et installé sur votre lecteur avec le bootloader de Rockbox. Vous devez télécharger ce fichier par vous-même pour des raisons légales. Veuillez vous référer aux Forums de Sansa ou au manuel et à la page wiki Sansa AMS pour obtenir ce fichier. Note:Ce fichier n'est pas présent sur votre lecteur et disparaîtra automatiquement après l'avoir installé. Appuyez sur Ok pour continuer et parcourir les fichiers sur votre ordinateur pour indiquer le fichier du firmware.`    
+`L'installation du bootloader nécessite que vous fournissiez une copie du firmware original (fichier bin). Ce firmware sera alors modifié et installé sur votre lecteur avec le bootloader de Rockbox. Vous devez télécharger ce fichier par vous-même pour des raisons légales. Veuillez vous référer aux Forums de Sansa ou au manuel et à la page wiki Sansa AMS pour obtenir ce fichier. Note: Ce fichier n'est pas présent sur votre lecteur et disparaîtra automatiquement après l'avoir installé. Appuyez sur Ok pour continuer et parcourir les fichiers sur votre ordinateur pour indiquer le fichier du firmware.`    
 `OK bouton`    
 `Abort bouton`    
 cliquez sur `OK`    
@@ -480,7 +480,7 @@ Au bout de quelques instants, RockboxUtility arrive à l'étape "installation de
 Vous pouvez ignorer ceci en choisissant le bouton "Annuler".    
 Quand tout est installé, cliquez sur le bouton OK dans le cas où vous avez installé des  thèmes.    
 Dans les deux cas de figure, vérifiez que Rockbox Utility a bien ajouté le fichier `*.bin` à la racine de votre baladeur.    
-PS: si vous ne voyez pas certains dossiers ou fichiers sur votre baladeur, c'est probablement parce que vous n'avez pas activé l'affichage des dossiers et fichiers cachés dans l'explorateur Windows.    
+P.-S. Si vous ne voyez pas certains dossiers ou fichiers sur votre baladeur, c'est probablement parce que vous n'avez pas activé l'affichage des dossiers et fichiers cachés dans l'explorateur Windows.    
 Par exemple, ".rockbox" est un répertoire caché.    
 Pour cela cliquez sur "Affichage", puis "Afficher les fichier cachés".    
 Et fermer à ce moment l'assistant de Rockbox utility, via le menu Fichier Alt+F, et chercher puis appuyer sur l'élément: Quitter Ctrl+Q.    
@@ -720,7 +720,7 @@ Quand on l'allume on écoute le nom du dossier ou nous étions par exemple si on
 # 12.- COMMENT UTILISER  mon lecteur Sansa Clip Plus à l'aide de Rockbox?<a id="mark12"></a>
 
 Note: N'oubliez pas que La batterie doit être complètement chargée avant la première utilisation du lecteur!, je pense que s'il est en 50% c'est bon pour installer le firmware Rockbox.    
-P.S: La charge de la batterie prend environs trois heures.    
+P.-S. La charge de la batterie prend environs trois heures.    
 
 À savoir que l'interface en anglais est différente du français et cette première  ne sera pas traitée dans ce tutoriel.    
 Mais je ne vais pas vous laisser lâcher tout de suite  dans la nature, car il existe une documentation très détaillée à télécharger ou à consulter en ligne pour le lecteur Sansa Clip Plus  dans la langue de Shakespeare.    
@@ -1111,7 +1111,7 @@ Si vous déplacez hors de la zone du sélecteur, vous obtenez la ligne en mode d
 Retourner à la page suivante de caractères (s'il y a plus d'un).    
 La touche de Sélection va insérer la lettre sélectionnée au clavier  sur la position du  curseur dans l'actuelle ligne.    
 
-Sauf erreur de ma part le vide  c'est l'espace.    
+Sauf erreur de ma part le vide c'est l'espace.    
 
 Pour voir les lettres écrite sur la ligne il sufit de se déplacer à l'aide des bboutons du Volume haut et Volume bas pour déplacer le curseur dans l'actuelle ligne.    
 
@@ -1350,10 +1350,13 @@ Vous pouvez le consulter en ligne ou le télécharger puis le lire avec votre le
 Chers amis du blog de RockboxFR Je pense avoir fait le tour des fonctions de base du Sansa Clip Plus!    
 En tout cas pour la lecture des fichiers audio puis la radio FM déjà se n'est pas trop mal! lol de lol!    
 
-amusez-vous bien avec votre lecteur Sansa Clip Plus!    
+Amusez-vous bien avec votre lecteur Sansa Clip Plus!    
+
+Merci beaucoup à    <span lang="en">Solomon Peachy!</span> pour avoir partagé ces informations de cette nouvelle mise à jour du firmware Rockbox dans sa dernière version 3.15 pour le lecteur SanDisk Sansa Clip+. :)    
+Profitez de Rockbox - un microprogramme pour les lecteurs de musique numérique gratuit!    
 Voilà, maintenant vous savez tout!    
 Arobamicalement à vous.    
-Rémy (BlindHelp!) 🇫🇷
+Rémy (BlindHelp!) 🇫🇷    
 
 [Retour au sommaire](#Sommaire)
 
